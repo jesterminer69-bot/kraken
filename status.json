@@ -1,92 +1,20 @@
 {
   "current_task": [
-    "Round 7 of infinite: currently in family_quick_test.",
-    "Testing bull_breakout 3/3 while comparing children against parent strategy baselines."
+    "Round 7 of infinite: currently in family_full_test.",
+    "Testing bull_runner 3/3 while comparing children against parent strategy baselines."
   ],
   "average_expected_apr": "0.79%",
   "cycle_progress": "Round 7 / infinite",
-  "phase": "family_quick_test",
-  "current_family": "bull_breakout",
+  "phase": "family_full_test",
+  "current_family": "bull_runner",
   "current_child": "3/3",
-  "children_tested": 195,
-  "children_viable": 39,
-  "children_pruned": 135,
+  "children_tested": 201,
+  "children_viable": 41,
+  "children_pruned": 139,
   "promotions": 7,
-  "last_event": "bull_breakout child 3 quick: ret=0.00% trades=0 viable=False under_benchmark_quick",
+  "last_event": "bull_runner child 3 full: ret=-6.64% dd=-23.35% promoted=False",
   "last_promotion": "sideways_mean_reversion_strict -> sideways_mean_reversion_strict_r6_child3 ret=-0.91% fit=-9.07",
   "testing_detail": [
-    {
-      "parent": "bear",
-      "family": "bear_defensive_dca",
-      "child": "bear_defensive_dca_r6_child1",
-      "child_no": 1,
-      "status": "testing",
-      "reason": "viable",
-      "quick_return_pct": 0.1510028363253424,
-      "full_return_pct": 0.03460448706646968,
-      "full_dd": -0.4503270325362574,
-      "full_trades": 10
-    },
-    {
-      "parent": "bear",
-      "family": "bear_defensive_dca",
-      "child": "bear_defensive_dca_r6_child2",
-      "child_no": 2,
-      "status": "testing",
-      "reason": "viable",
-      "quick_return_pct": 0.8552304266769672,
-      "full_return_pct": 1.2247812633334743,
-      "full_dd": -0.5724104855979961,
-      "full_trades": 21
-    },
-    {
-      "parent": "bear",
-      "family": "bear_defensive_dca",
-      "child": "bear_defensive_dca_r6_child3",
-      "child_no": 3,
-      "status": "testing",
-      "reason": "viable",
-      "quick_return_pct": 0.18531351046808808,
-      "full_return_pct": 0.10449443071951503,
-      "full_dd": -0.5813756475433585,
-      "full_trades": 9
-    },
-    {
-      "parent": "regime",
-      "family": "regime",
-      "child": "regime_r7_child1",
-      "child_no": 1,
-      "status": "testing",
-      "reason": "",
-      "quick_return_pct": "",
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
-    {
-      "parent": "regime",
-      "family": "regime",
-      "child": "regime_r7_child2",
-      "child_no": 2,
-      "status": "testing",
-      "reason": "",
-      "quick_return_pct": "",
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
-    {
-      "parent": "regime",
-      "family": "regime",
-      "child": "regime_r7_child3",
-      "child_no": 3,
-      "status": "testing",
-      "reason": "",
-      "quick_return_pct": "",
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
     {
       "parent": "bull",
       "family": "bull_trend",
@@ -158,7 +86,79 @@
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_pullback",
+      "child": "bull_pullback_r7_child1",
+      "child_no": 1,
+      "status": "testing",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": 0.0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_pullback",
+      "child": "bull_pullback_r7_child2",
+      "child_no": 2,
+      "status": "testing",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": -1.553863573021963,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_pullback",
+      "child": "bull_pullback_r7_child3",
+      "child_no": 3,
+      "status": "testing",
+      "reason": "relative_repair_gain_fit=32.61_ret=-2.65",
+      "quick_return_pct": 0.5904031725502801,
+      "full_return_pct": -7.768042111070583,
+      "full_dd": -8.219194694921207,
+      "full_trades": 18
+    },
+    {
+      "parent": "bull",
+      "family": "bull_runner",
+      "child": "bull_runner_r7_child1",
+      "child_no": 1,
+      "status": "testing",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": 0.0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_runner",
+      "child": "bull_runner_r7_child2",
+      "child_no": 2,
+      "status": "testing",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": 0.0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_runner",
+      "child": "bull_runner_r7_child3",
+      "child_no": 3,
+      "status": "testing",
+      "reason": "relative_repair_gain_fit=3.25_ret=6.80",
+      "quick_return_pct": 17.27063988436399,
+      "full_return_pct": -6.640931491458879,
+      "full_dd": -23.352769623963844,
+      "full_trades": 88
     }
   ],
-  "updated_at": "2026-05-04 05:36:19 AM"
+  "updated_at": "2026-05-04 05:44:24 AM"
 }
