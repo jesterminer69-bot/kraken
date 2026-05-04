@@ -1,13 +1,13 @@
 {
   "current_task": [
-    "Round 2 of infinite: currently in family_full_test.",
-    "Testing bear_defensive_dca 3/3 while comparing children against parent strategy baselines."
+    "Round 2 of infinite: currently in round_complete.",
+    "Testing all families  while comparing children against parent strategy baselines."
   ],
-  "average_expected_apr": "0.13%",
+  "average_expected_apr": "0.85%",
   "cycle_progress": "Round 2 / infinite",
-  "phase": "family_full_test",
-  "current_family": "bear_defensive_dca",
-  "current_child": "3/3",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 66,
   "children_viable": 17,
   "children_pruned": 43,
@@ -160,5 +160,5 @@
       "full_trades": 22
     }
   ],
-  "updated_at": "2026-05-04 01:55:48 AM"
+  "updated_at": "2026-05-04 02:01:20 AM"
 }
