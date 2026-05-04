@@ -1,9 +1,32 @@
 {
-  "updated_at": "Initializing...",
   "current_task": [
-    "Waiting for first run...",
-    "No active testing yet."
+    "This is a manual GitHub status update test.",
+    "If this appears on the website, the dashboard pipeline is working."
   ],
-  "average_expected_apr": "0%",
-  "testing_detail": []
+  "average_expected_apr": "TEST",
+  "cycle_progress": "Manual test",
+  "phase": "github_status_test",
+  "current_family": "manual",
+  "current_child": "none",
+  "children_tested": 0,
+  "children_viable": 0,
+  "children_pruned": 0,
+  "promotions": 0,
+  "last_event": "Manual test pushed from test_github_status.py",
+  "last_promotion": "",
+  "testing_detail": [
+    {
+      "parent": "manual_parent",
+      "family": "manual_family",
+      "child": "manual_child",
+      "child_no": "0/0",
+      "status": "testing",
+      "reason": "Testing GitHub status update only",
+      "quick_return_pct": "",
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    }
+  ],
+  "updated_at": "2026-05-03 11:00:48 PM"
 }
