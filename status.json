@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 5 of infinite: family_parallel_full_test.",
-    "Testing bear_defensive_dca parallel/6; children are compared against family baselines and combined-selector impact.",
+    "Round 5 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "0.80%",
   "cycle_progress": "Round 5 / infinite",
-  "phase": "family_parallel_full_test",
-  "current_family": "bear_defensive_dca",
-  "current_child": "parallel/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 306,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-04T22:41:31.499343+00:00",
+  "generated_at": "2026-05-04T22:46:01.805573+00:00",
   "version": "13.5.4-mp6-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-04T16:23:21.812604+00:00",
-  "runtime_minutes": 378.16,
-  "children_per_hour": 48.55,
+  "runtime_minutes": 382.67,
+  "children_per_hour": 47.98,
   "run_health": "healthy",
   "warnings": [
     "Sideways champion is still not net-profitable."
@@ -788,5 +788,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-04 05:41:31 PM"
+  "updated_at": "2026-05-04 05:46:01 PM"
 }
