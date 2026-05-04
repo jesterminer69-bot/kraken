@@ -1,22 +1,22 @@
 {
   "current_task": [
     "Round 1 of infinite: family_parallel_quick_test.",
-    "Testing bull_trend parallel/3; children are compared against family baselines and combined-selector impact.",
+    "Testing bull_pullback parallel/3; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "0.78%",
   "cycle_progress": "Round 1 / infinite",
   "phase": "family_parallel_quick_test",
-  "current_family": "bull_trend",
+  "current_family": "bull_pullback",
   "current_child": "parallel/3",
-  "children_tested": 6,
+  "children_tested": 12,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
   "log_normalization": "main_process_clean_sorted_events",
   "children_viable": 0,
-  "children_pruned": 3,
+  "children_pruned": 9,
   "promotions": 1,
-  "last_event": "bull_trend child 3 quick: ret=-27.98% trades=57 viable=False quick_disaster_return",
+  "last_event": "bull_pullback child 3 quick: ret=0.00% trades=0 viable=False under_benchmark_quick",
   "last_promotion": "regime -> regime_r1_child2 fitness=-1.1521790551154778",
   "testing_detail": [
     {
@@ -71,6 +71,102 @@
       "round": 1,
       "phase": "quick_test",
       "parent": "bull",
+      "family": "bull_breakout",
+      "child": "bull_breakout_r1_child1",
+      "child_no": 1,
+      "status": "pruned",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": -4.862,
+      "quick_trades": 10,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 1,
+      "phase": "quick_test",
+      "parent": "bull",
+      "family": "bull_breakout",
+      "child": "bull_breakout_r1_child2",
+      "child_no": 2,
+      "status": "pruned",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": 3.346,
+      "quick_trades": 3,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 1,
+      "phase": "quick_test",
+      "parent": "bull",
+      "family": "bull_breakout",
+      "child": "bull_breakout_r1_child3",
+      "child_no": 3,
+      "status": "pruned",
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -19.051,
+      "quick_trades": 30,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 1,
+      "phase": "quick_test",
+      "parent": "bull",
+      "family": "bull_pullback",
+      "child": "bull_pullback_r1_child1",
+      "child_no": 1,
+      "status": "pruned",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": -2.398,
+      "quick_trades": 3,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 1,
+      "phase": "quick_test",
+      "parent": "bull",
+      "family": "bull_pullback",
+      "child": "bull_pullback_r1_child2",
+      "child_no": 2,
+      "status": "pruned",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": 0.0,
+      "quick_trades": 0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 1,
+      "phase": "quick_test",
+      "parent": "bull",
+      "family": "bull_pullback",
+      "child": "bull_pullback_r1_child3",
+      "child_no": 3,
+      "status": "pruned",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": 0.0,
+      "quick_trades": 0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 1,
+      "phase": "quick_test",
+      "parent": "bull",
       "family": "bull_trend",
       "child": "bull_trend_r1_child1",
       "child_no": 1,
@@ -116,13 +212,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-04T15:56:28.598706+00:00",
+  "generated_at": "2026-05-04T16:08:19.185712+00:00",
   "version": "13.5.3-mp6-cleanlogs-bakedchampions",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-04T15:40:18.668336+00:00",
-  "runtime_minutes": 16.17,
-  "children_per_hour": 22.27,
+  "runtime_minutes": 28.01,
+  "children_per_hour": 25.71,
   "run_health": "healthy",
   "warnings": [
     "Sideways champion is still not net-profitable."
@@ -133,8 +229,8 @@
       "Sideways champion is still not net-profitable."
     ],
     "viable_rate_pct": 0.0,
-    "prune_rate_pct": 50.0,
-    "promotion_rate_pct": 16.67,
+    "prune_rate_pct": 75.0,
+    "promotion_rate_pct": 8.33,
     "full_tests_seen": 0,
     "best_current_regime": "bear",
     "weakest_current_regime": "bull",
@@ -260,6 +356,34 @@
       "promotion_rate_pct": 33.33
     },
     {
+      "family": "bull_breakout",
+      "tested": 3,
+      "quick_viable": 0,
+      "full_tests": 0,
+      "promotions": 0,
+      "pruned": 3,
+      "suppressed": 0,
+      "last_reason": "quick_disaster_return",
+      "last_return_pct": "",
+      "best_full_return_pct": "",
+      "viable_rate_pct": 0.0,
+      "promotion_rate_pct": 0.0
+    },
+    {
+      "family": "bull_pullback",
+      "tested": 3,
+      "quick_viable": 0,
+      "full_tests": 0,
+      "promotions": 0,
+      "pruned": 3,
+      "suppressed": 0,
+      "last_reason": "under_benchmark_quick",
+      "last_return_pct": "",
+      "best_full_return_pct": "",
+      "viable_rate_pct": 0.0,
+      "promotion_rate_pct": 0.0
+    },
+    {
       "family": "bull_trend",
       "tested": 3,
       "quick_viable": 0,
@@ -290,11 +414,11 @@
   "top_failure_reasons": [
     {
       "reason": "under_benchmark_quick",
-      "count": 2
+      "count": 7
     },
     {
       "reason": "quick_disaster_return",
-      "count": 1
+      "count": 2
     }
   ],
   "website_cards": [
@@ -333,5 +457,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-04 10:56:28 AM"
+  "updated_at": "2026-05-04 11:08:19 AM"
 }
