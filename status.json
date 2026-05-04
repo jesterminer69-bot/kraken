@@ -1,56 +1,20 @@
 {
   "current_task": [
-    "Round 2 of infinite: currently in family_quick_test.",
-    "Testing sideways_range 3/3 while comparing children against parent strategy baselines."
+    "Round 2 of infinite: currently in family_full_test.",
+    "Testing sideways_bollinger 3/3 while comparing children against parent strategy baselines."
   ],
   "average_expected_apr": "0.13%",
   "cycle_progress": "Round 2 / infinite",
-  "phase": "family_quick_test",
-  "current_family": "sideways_range",
+  "phase": "family_full_test",
+  "current_family": "sideways_bollinger",
   "current_child": "3/3",
-  "children_tested": 51,
-  "children_viable": 9,
-  "children_pruned": 36,
-  "promotions": 2,
-  "last_event": "sideways_range child 3 quick: ret=-34.23% trades=222 viable=False quick_disaster_return",
-  "last_promotion": "bull_runner -> bull_runner_r2_child1 ret=10.47% fit=-81.90",
+  "children_tested": 54,
+  "children_viable": 10,
+  "children_pruned": 38,
+  "promotions": 3,
+  "last_event": "sideways_bollinger child 3 full: ret=-0.87% dd=-0.87% promoted=True",
+  "last_promotion": "sideways_bollinger -> sideways_bollinger_r2_child3 ret=-0.87% fit=-36.79",
   "testing_detail": [
-    {
-      "parent": "bull",
-      "family": "bull_breakout",
-      "child": "bull_breakout_r2_child1",
-      "child_no": 1,
-      "status": "testing",
-      "reason": "quick_disaster_return",
-      "quick_return_pct": -8.027496805312984,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
-    {
-      "parent": "bull",
-      "family": "bull_breakout",
-      "child": "bull_breakout_r2_child2",
-      "child_no": 2,
-      "status": "testing",
-      "reason": "relative_repair_gain_fit=44.15_ret=9.97",
-      "quick_return_pct": -2.3996025447299063,
-      "full_return_pct": -25.006225023017127,
-      "full_dd": -33.76250275548559,
-      "full_trades": 205
-    },
-    {
-      "parent": "bull",
-      "family": "bull_breakout",
-      "child": "bull_breakout_r2_child3",
-      "child_no": 3,
-      "status": "testing",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 0.0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
     {
       "parent": "bull",
       "family": "bull_pullback",
@@ -158,7 +122,43 @@
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": ""
+    },
+    {
+      "parent": "sideways",
+      "family": "sideways_bollinger",
+      "child": "sideways_bollinger_r2_child1",
+      "child_no": 1,
+      "status": "testing",
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -9.85399686816697,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "sideways",
+      "family": "sideways_bollinger",
+      "child": "sideways_bollinger_r2_child2",
+      "child_no": 2,
+      "status": "testing",
+      "reason": "no_trades",
+      "quick_return_pct": 0.0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "sideways",
+      "family": "sideways_bollinger",
+      "child": "sideways_bollinger_r2_child3",
+      "child_no": 3,
+      "status": "promoted",
+      "reason": "relative_repair_gain_fit=53.57_ret=2.65",
+      "quick_return_pct": -0.2515094510686877,
+      "full_return_pct": -0.8742203916683455,
+      "full_dd": -0.8742203916683455,
+      "full_trades": 23
     }
   ],
-  "updated_at": "2026-05-04 01:08:11 AM"
+  "updated_at": "2026-05-04 01:21:40 AM"
 }
