@@ -1,32 +1,92 @@
 {
   "current_task": [
-    "This is a manual GitHub status update test.",
-    "If this appears on the website, the dashboard pipeline is working."
+    "Round 1 of infinite: currently in family_quick_test.",
+    "Testing bull_trend 3/3 while comparing children against parent strategy baselines."
   ],
-  "average_expected_apr": "TEST",
-  "cycle_progress": "Manual test",
-  "phase": "github_status_test",
-  "current_family": "manual",
-  "current_child": "none",
-  "children_tested": 0,
+  "average_expected_apr": "0.13%",
+  "cycle_progress": "Round 1 / infinite",
+  "phase": "family_quick_test",
+  "current_family": "bull_trend",
+  "current_child": "3/3",
+  "children_tested": 6,
   "children_viable": 0,
-  "children_pruned": 0,
+  "children_pruned": 3,
   "promotions": 0,
-  "last_event": "Manual test pushed from test_github_status.py",
+  "last_event": "bull_trend child 3 quick: ret=0.00% trades=0 viable=False under_benchmark_quick",
   "last_promotion": "",
   "testing_detail": [
     {
-      "parent": "manual_parent",
-      "family": "manual_family",
-      "child": "manual_child",
-      "child_no": "0/0",
+      "parent": "regime",
+      "family": "regime",
+      "child": "regime_r1_child1",
+      "child_no": 1,
       "status": "testing",
-      "reason": "Testing GitHub status update only",
+      "reason": "",
       "quick_return_pct": "",
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "regime",
+      "family": "regime",
+      "child": "regime_r1_child2",
+      "child_no": 2,
+      "status": "testing",
+      "reason": "",
+      "quick_return_pct": "",
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "regime",
+      "family": "regime",
+      "child": "regime_r1_child3",
+      "child_no": 3,
+      "status": "testing",
+      "reason": "",
+      "quick_return_pct": "",
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_trend",
+      "child": "bull_trend_r1_child1",
+      "child_no": 1,
+      "status": "testing",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": -2.3645034997485936,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_trend",
+      "child": "bull_trend_r1_child2",
+      "child_no": 2,
+      "status": "testing",
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -22.912800773092922,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_trend",
+      "child": "bull_trend_r1_child3",
+      "child_no": 3,
+      "status": "testing",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": 0.0,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": ""
     }
   ],
-  "updated_at": "2026-05-03 11:00:48 PM"
+  "updated_at": "2026-05-03 11:48:55 PM"
 }
