@@ -1,56 +1,20 @@
 {
   "current_task": [
-    "Round 4 of infinite: currently in family_full_test.",
-    "Testing bear_bounce_scalp 3/3 while comparing children against parent strategy baselines."
+    "Round 4 of infinite: currently in round_complete.",
+    "Testing all families  while comparing children against parent strategy baselines."
   ],
-  "average_expected_apr": "0.85%",
+  "average_expected_apr": "0.79%",
   "cycle_progress": "Round 4 / infinite",
-  "phase": "family_full_test",
-  "current_family": "bear_bounce_scalp",
-  "current_child": "3/3",
-  "children_tested": 123,
-  "children_viable": 25,
-  "children_pruned": 86,
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
+  "children_tested": 126,
+  "children_viable": 27,
+  "children_pruned": 87,
   "promotions": 6,
-  "last_event": "bear_bounce_scalp child 3 full: ret=0.00% dd=0.00% promoted=False",
+  "last_event": "bear_defensive_dca child 3 quick: ret=0.05% trades=10 viable=False far_worse_than_parent_quick",
   "last_promotion": "sideways_grid_light -> sideways_grid_light_r4_child1 ret=-0.41% fit=-1.73",
   "testing_detail": [
-    {
-      "parent": "sideways",
-      "family": "sideways_bollinger",
-      "child": "sideways_bollinger_r4_child2",
-      "child_no": 2,
-      "status": "testing",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
-    {
-      "parent": "sideways",
-      "family": "sideways_bollinger",
-      "child": "sideways_bollinger_r4_child3",
-      "child_no": 3,
-      "status": "testing",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
-    {
-      "parent": "sideways",
-      "family": "sideways_grid_light",
-      "child": "sideways_grid_light_r4_child1",
-      "child_no": 1,
-      "status": "promoted",
-      "reason": "relative_repair_gain_fit=37.38_ret=1.93",
-      "quick_return_pct": -0.013973075909023969,
-      "full_return_pct": -0.40874342943634234,
-      "full_dd": -0.4598126406949232,
-      "full_trades": 3
-    },
     {
       "parent": "sideways",
       "family": "sideways_grid_light",
@@ -158,7 +122,43 @@
       "full_return_pct": 0.0,
       "full_dd": 0.0,
       "full_trades": 0
+    },
+    {
+      "parent": "bear",
+      "family": "bear_defensive_dca",
+      "child": "bear_defensive_dca_r4_child1",
+      "child_no": 1,
+      "status": "testing",
+      "reason": "viable",
+      "quick_return_pct": 0.20284815968620862,
+      "full_return_pct": 0.681178645123115,
+      "full_dd": -0.6046202387191557,
+      "full_trades": 11
+    },
+    {
+      "parent": "bear",
+      "family": "bear_defensive_dca",
+      "child": "bear_defensive_dca_r4_child2",
+      "child_no": 2,
+      "status": "testing",
+      "reason": "viable",
+      "quick_return_pct": 0.7534302820578098,
+      "full_return_pct": 0.9459380401357409,
+      "full_dd": -0.6565604160373106,
+      "full_trades": 21
+    },
+    {
+      "parent": "bear",
+      "family": "bear_defensive_dca",
+      "child": "bear_defensive_dca_r4_child3",
+      "child_no": 3,
+      "status": "testing",
+      "reason": "far_worse_than_parent_quick",
+      "quick_return_pct": 0.05387478082452546,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
     }
   ],
-  "updated_at": "2026-05-04 03:33:27 AM"
+  "updated_at": "2026-05-04 03:42:37 AM"
 }
