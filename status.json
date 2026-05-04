@@ -1,37 +1,21 @@
 {
   "current_task": [
-    "Round 1 of infinite: family_quick_test.",
-    "Testing sideways_mean_reversion_strict 3/3; children are compared against family baselines and combined-selector impact.",
+    "Round 1 of infinite: family_parent_recheck.",
+    "Testing bear_cash 3/3; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "0.79%",
   "cycle_progress": "Round 1 / infinite",
-  "phase": "family_quick_test",
-  "current_family": "sideways_mean_reversion_strict",
+  "phase": "family_parent_recheck",
+  "current_family": "bear_cash",
   "current_child": "3/3",
   "children_tested": 27,
   "children_viable": 1,
   "children_pruned": 23,
   "promotions": 1,
-  "last_event": "sideways_mean_reversion_strict child 3 quick: ret=-21.04% trades=152 viable=False quick_disaster_return",
+  "last_event": "bear_cash: skipped child tests, cash anchor preserved",
   "last_promotion": "bull_breakout -> bull_breakout_r1_child3 ret=16.51% fit=-73.21",
   "testing_detail": [
-    {
-      "round": 1,
-      "phase": "quick_test",
-      "parent": "bull",
-      "family": "bull_pullback",
-      "child": "bull_pullback_r1_child3",
-      "child_no": 3,
-      "status": "pruned",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
     {
       "round": 1,
       "phase": "quick_test",
@@ -271,15 +255,31 @@
       "full_dd": "",
       "full_trades": "",
       "promoted": false
+    },
+    {
+      "round": 1,
+      "phase": "quick_test",
+      "parent": "bear",
+      "family": "bear_cash",
+      "child": "bear_cash_v13_seed",
+      "child_no": 0,
+      "status": "pruned",
+      "reason": "bear_cash_anchor_skip_child_tests",
+      "quick_return_pct": "",
+      "quick_trades": "",
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
     }
   ],
-  "generated_at": "2026-05-04T14:48:43.846275+00:00",
+  "generated_at": "2026-05-04T14:57:58.991045+00:00",
   "version": "13.5.0",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-04T13:08:20.413943+00:00",
-  "runtime_minutes": 100.39,
-  "children_per_hour": 16.14,
+  "runtime_minutes": 109.64,
+  "children_per_hour": 14.78,
   "run_health": "healthy",
   "warnings": [
     "Sideways champion is still not net-profitable."
@@ -527,6 +527,20 @@
       "best_full_return_pct": "",
       "viable_rate_pct": 0.0,
       "promotion_rate_pct": 0.0
+    },
+    {
+      "family": "bear_cash",
+      "tested": 1,
+      "quick_viable": 0,
+      "full_tests": 0,
+      "promotions": 0,
+      "pruned": 1,
+      "suppressed": 0,
+      "last_reason": "bear_cash_anchor_skip_child_tests",
+      "last_return_pct": "",
+      "best_full_return_pct": "",
+      "viable_rate_pct": 0.0,
+      "promotion_rate_pct": 0.0
     }
   ],
   "recent_promotions": [
@@ -573,6 +587,10 @@
     {
       "reason": "relative_repair_gain_fit=76.96_ret=13.67",
       "count": 1
+    },
+    {
+      "reason": "bear_cash_anchor_skip_child_tests",
+      "count": 1
     }
   ],
   "website_cards": [
@@ -609,5 +627,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-04 09:48:43 AM"
+  "updated_at": "2026-05-04 09:57:58 AM"
 }
