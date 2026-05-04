@@ -1,68 +1,20 @@
 {
   "current_task": [
-    "Round 9 of infinite: currently in family_quick_test.",
-    "Testing bull_pullback 3/3 while comparing children against parent strategy baselines."
+    "Round 9 of infinite: currently in family_full_test.",
+    "Testing sideways_range 3/3 while comparing children against parent strategy baselines."
   ],
   "average_expected_apr": "0.79%",
   "cycle_progress": "Round 9 / infinite",
-  "phase": "family_quick_test",
-  "current_family": "bull_pullback",
+  "phase": "family_full_test",
+  "current_family": "sideways_range",
   "current_child": "3/3",
-  "children_tested": 258,
-  "children_viable": 49,
-  "children_pruned": 182,
-  "promotions": 8,
-  "last_event": "bull_pullback child 3 quick: ret=0.00% trades=0 viable=False under_benchmark_quick",
-  "last_promotion": "sideways_bollinger -> sideways_bollinger_r8_child2 ret=-0.24% fit=-3.56",
+  "children_tested": 261,
+  "children_viable": 50,
+  "children_pruned": 184,
+  "promotions": 9,
+  "last_event": "sideways_range child 3 full: ret=-0.72% dd=-0.92% promoted=True",
+  "last_promotion": "sideways_range -> sideways_range_r9_child3 ret=-0.72% fit=-9.91",
   "testing_detail": [
-    {
-      "parent": "bear",
-      "family": "bear_defensive_dca",
-      "child": "bear_defensive_dca_r8_child2",
-      "child_no": 2,
-      "status": "testing",
-      "reason": "profit_factor_too_low",
-      "quick_return_pct": -0.4559822072562225,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
-    {
-      "parent": "bear",
-      "family": "bear_defensive_dca",
-      "child": "bear_defensive_dca_r8_child3",
-      "child_no": 3,
-      "status": "testing",
-      "reason": "viable",
-      "quick_return_pct": 1.3539072198097024,
-      "full_return_pct": 0.7888566351422321,
-      "full_dd": -0.559274212750327,
-      "full_trades": 16
-    },
-    {
-      "parent": "regime",
-      "family": "regime",
-      "child": "regime_r9_child1",
-      "child_no": 1,
-      "status": "testing",
-      "reason": "",
-      "quick_return_pct": "",
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
-    {
-      "parent": "regime",
-      "family": "regime",
-      "child": "regime_r9_child2",
-      "child_no": 2,
-      "status": "testing",
-      "reason": "",
-      "quick_return_pct": "",
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": ""
-    },
     {
       "parent": "regime",
       "family": "regime",
@@ -158,7 +110,55 @@
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": ""
+    },
+    {
+      "parent": "bull",
+      "family": "bull_runner",
+      "child": "bull_runner_r2_child1",
+      "child_no": 0,
+      "status": "testing",
+      "reason": "family_suppressed_until_round_11",
+      "quick_return_pct": "",
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r9_child1",
+      "child_no": 1,
+      "status": "testing",
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -23.971421277672846,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r9_child2",
+      "child_no": 2,
+      "status": "testing",
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -40.50501081558334,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": ""
+    },
+    {
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r9_child3",
+      "child_no": 3,
+      "status": "promoted",
+      "reason": "relative_repair_gain_fit=30.57_ret=-0.06",
+      "quick_return_pct": -0.06239303095812998,
+      "full_return_pct": -0.7242979860263454,
+      "full_dd": -0.9179107516167684,
+      "full_trades": 9
     }
   ],
-  "updated_at": "2026-05-04 07:20:28 AM"
+  "updated_at": "2026-05-04 07:34:53 AM"
 }
