@@ -42,4 +42,4 @@ async function loadStatus() {
 loadStatus();
 
 // Refresh every 5 minutes
-setInterval(loadStatus, 300000);
+setInterval(loadStatus, 600000);
