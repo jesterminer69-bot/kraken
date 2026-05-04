@@ -1,120 +1,24 @@
 {
   "current_task": [
     "Round 5 of infinite: family_parallel_quick_test.",
-    "Testing bull_pullback parallel/6; children are compared against family baselines and combined-selector impact.",
+    "Testing sideways_range parallel/6; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "0.80%",
   "cycle_progress": "Round 5 / infinite",
   "phase": "family_parallel_quick_test",
-  "current_family": "bull_pullback",
+  "current_family": "sideways_range",
   "current_child": "parallel/6",
-  "children_tested": 270,
+  "children_tested": 276,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
   "log_normalization": "main_process_clean_sorted_events",
   "children_viable": 45,
-  "children_pruned": 195,
+  "children_pruned": 201,
   "promotions": 3,
-  "last_event": "bull_runner: suppressed this round after prior catastrophic result",
+  "last_event": "sideways_range child 6 quick: ret=-3.15% trades=68 viable=False under_benchmark_quick",
   "last_promotion": "sideways_range -> sideways_range_r4_child1 ret=-0.20% fit=-3.39",
   "testing_detail": [
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "bull",
-      "family": "bull_breakout",
-      "child": "bull_breakout_r5_child4",
-      "child_no": 4,
-      "status": "pruned",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "bull",
-      "family": "bull_breakout",
-      "child": "bull_breakout_r5_child5",
-      "child_no": 5,
-      "status": "pruned",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 0.569,
-      "quick_trades": 1,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "bull",
-      "family": "bull_breakout",
-      "child": "bull_breakout_r5_child6",
-      "child_no": 6,
-      "status": "pruned",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 1.385,
-      "quick_trades": 3,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "bull",
-      "family": "bull_pullback",
-      "child": "bull_pullback_r5_child1",
-      "child_no": 1,
-      "status": "pruned",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "bull",
-      "family": "bull_pullback",
-      "child": "bull_pullback_r5_child2",
-      "child_no": 2,
-      "status": "pruned",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "bull",
-      "family": "bull_pullback",
-      "child": "bull_pullback_r5_child3",
-      "child_no": 3,
-      "status": "pruned",
-      "reason": "under_benchmark_quick",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
     {
       "round": 5,
       "phase": "quick_test",
@@ -261,6 +165,102 @@
     },
     {
       "round": 5,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r5_child1",
+      "child_no": 1,
+      "status": "pruned",
+      "reason": "no_trades",
+      "quick_return_pct": 0.0,
+      "quick_trades": 0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 5,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r5_child2",
+      "child_no": 2,
+      "status": "pruned",
+      "reason": "no_trades",
+      "quick_return_pct": 0.0,
+      "quick_trades": 0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 5,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r5_child3",
+      "child_no": 3,
+      "status": "pruned",
+      "reason": "no_trades",
+      "quick_return_pct": 0.0,
+      "quick_trades": 0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 5,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r5_child4",
+      "child_no": 4,
+      "status": "pruned",
+      "reason": "no_trades",
+      "quick_return_pct": 0.0,
+      "quick_trades": 0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 5,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r5_child5",
+      "child_no": 5,
+      "status": "pruned",
+      "reason": "no_trades",
+      "quick_return_pct": 0.0,
+      "quick_trades": 0,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 5,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_range",
+      "child": "sideways_range_r5_child6",
+      "child_no": 6,
+      "status": "pruned",
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": -3.147,
+      "quick_trades": 68,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 5,
       "phase": "full_test",
       "parent": "bull",
       "family": "bull_breakout",
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-04T21:59:34.513807+00:00",
+  "generated_at": "2026-05-04T22:05:42.094113+00:00",
   "version": "13.5.4-mp6-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-04T16:23:21.812604+00:00",
-  "runtime_minutes": 336.21,
-  "children_per_hour": 48.18,
+  "runtime_minutes": 342.34,
+  "children_per_hour": 48.37,
   "run_health": "healthy",
   "warnings": [
     "Sideways champion is still not net-profitable."
@@ -292,9 +292,9 @@
     "warnings": [
       "Sideways champion is still not net-profitable."
     ],
-    "viable_rate_pct": 16.67,
-    "prune_rate_pct": 72.22,
-    "promotion_rate_pct": 1.11,
+    "viable_rate_pct": 16.3,
+    "prune_rate_pct": 72.83,
+    "promotion_rate_pct": 1.09,
     "full_tests_seen": 45,
     "best_current_regime": "bear",
     "weakest_current_regime": "bull",
@@ -407,17 +407,17 @@
   "family_scoreboard": [
     {
       "family": "sideways_range",
-      "tested": 24,
+      "tested": 30,
       "quick_viable": 3,
       "full_tests": 3,
       "promotions": 1,
-      "pruned": 21,
+      "pruned": 27,
       "suppressed": 0,
-      "last_reason": "relative_repair_gain_fit=42.53_ret=0.83",
+      "last_reason": "under_benchmark_quick",
       "last_return_pct": -4.254,
       "best_full_return_pct": -0.202,
-      "viable_rate_pct": 12.5,
-      "promotion_rate_pct": 4.17
+      "viable_rate_pct": 10.0,
+      "promotion_rate_pct": 3.33
     },
     {
       "family": "bull_pullback",
@@ -711,11 +711,11 @@
   "top_failure_reasons": [
     {
       "reason": "under_benchmark_quick",
-      "count": 99
+      "count": 100
     },
     {
       "reason": "no_trades",
-      "count": 71
+      "count": 76
     },
     {
       "reason": "bear_cashlike_safe",
@@ -765,7 +765,7 @@
     },
     {
       "label": "Viable Rate",
-      "value": "16.67%"
+      "value": "16.3%"
     }
   ],
   "files_to_send_chatgpt": [
@@ -778,5 +778,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-04 04:59:34 PM"
+  "updated_at": "2026-05-04 05:05:42 PM"
 }
