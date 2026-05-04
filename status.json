@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 2 of infinite: family_parallel_full_test.",
-    "Testing bear_defensive_dca parallel/6; children are compared against family baselines and combined-selector impact.",
+    "Round 2 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: stuck | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "0.78%",
   "cycle_progress": "Round 2 / infinite",
-  "phase": "family_parallel_full_test",
-  "current_family": "bear_defensive_dca",
-  "current_child": "parallel/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 126,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-04T18:49:32.028218+00:00",
+  "generated_at": "2026-05-04T18:53:28.921852+00:00",
   "version": "13.5.4-mp6-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-04T16:23:21.812604+00:00",
-  "runtime_minutes": 146.17,
-  "children_per_hour": 51.72,
+  "runtime_minutes": 150.12,
+  "children_per_hour": 50.36,
   "run_health": "stuck",
   "warnings": [
     "No promotions after 120+ children.",
@@ -749,5 +749,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-04 01:49:32 PM"
+  "updated_at": "2026-05-04 01:53:28 PM"
 }
