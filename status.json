@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 3 of infinite: round_hotpool_full_test.",
-    "Testing sideways_false_breakout_fade queued/2 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 3 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 3 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_false_breakout_fade",
-  "current_child": "queued/2 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 90,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -277,13 +277,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T17:34:18.912615+00:00",
+  "generated_at": "2026-05-05T17:39:00.411328+00:00",
   "version": "14.7-surefire-multiprocessing",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T15:24:19.089361+00:00",
-  "runtime_minutes": 130.0,
-  "children_per_hour": 41.54,
+  "runtime_minutes": 134.69,
+  "children_per_hour": 40.09,
   "run_health": "watch",
   "warnings": [
     "Very low viable-child rate; mutation space may be too harsh or parents are strong.",
@@ -616,5 +616,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 12:34:18 PM"
+  "updated_at": "2026-05-05 12:39:00 PM"
 }
