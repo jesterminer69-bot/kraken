@@ -1,12 +1,12 @@
 {
   "current_task": [
-    "startup_session_begin",
-    "Session started. Parallel startup enabled. Workers=6. Loading Kraken historical CSVs and cache metadata now.",
+    "startup_market_loaded",
+    "Loaded 11 symbols with 524,553 combined timeline points. Startup/evolution multiprocessing workers=6.",
     "Version: 14.6-parallel-startup-cache-github"
   ],
   "average_expected_apr": "",
   "cycle_progress": "startup",
-  "phase": "startup_session_begin",
+  "phase": "startup_market_loaded",
   "current_family": "startup",
   "current_child": "",
   "children_tested": 0,
@@ -16,9 +16,9 @@
   "children_viable": 0,
   "children_pruned": 0,
   "promotions": 0,
-  "last_event": "Session started. Parallel startup enabled. Workers=6. Loading Kraken historical CSVs and cache metadata now.",
+  "last_event": "Loaded 11 symbols with 524,553 combined timeline points. Startup/evolution multiprocessing workers=6.",
   "last_promotion": "",
-  "generated_at": "2026-05-05T13:40:39.235989+00:00",
+  "generated_at": "2026-05-05T13:41:13.537551+00:00",
   "version": "14.6-parallel-startup-cache-github",
   "mode": "startup",
   "run_health": "startup",
@@ -27,5 +27,5 @@
     "STATUS_NOW.txt",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 08:40:39 AM"
+  "updated_at": "2026-05-05 08:41:13 AM"
 }
