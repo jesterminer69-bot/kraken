@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 5 of infinite: round_hotpool_quick_test.",
-    "Testing sideways_inventory_microgrid+sideways_false_breakout_fade+sideways_hurst_reversion queued/18 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 5 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 5 / infinite",
-  "phase": "round_hotpool_quick_test",
-  "current_family": "sideways_inventory_microgrid+sideways_false_breakout_fade+sideways_hurst_reversion",
-  "current_child": "queued/18 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 102,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T07:08:03.777373+00:00",
+  "generated_at": "2026-05-05T07:12:41.385548+00:00",
   "version": "14.3-sideways-menu-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T04:53:18.285419+00:00",
-  "runtime_minutes": 134.76,
-  "children_per_hour": 45.41,
+  "runtime_minutes": 139.38,
+  "children_per_hour": 43.91,
   "run_health": "watch",
   "warnings": [
     "Very low viable-child rate; mutation space may be too harsh or parents are strong.",
@@ -696,5 +696,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 02:08:03 AM"
+  "updated_at": "2026-05-05 02:12:41 AM"
 }
