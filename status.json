@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 4 of infinite: round_hotpool_full_test.",
-    "Testing sideways_false_breakout_fade+sideways_relative_value queued/3 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 4 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: stuck | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 4 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_false_breakout_fade+sideways_relative_value",
-  "current_child": "queued/3 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 120,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -277,13 +277,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T18:18:04.725789+00:00",
+  "generated_at": "2026-05-05T18:22:44.508318+00:00",
   "version": "14.7-surefire-multiprocessing",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T15:24:19.089361+00:00",
-  "runtime_minutes": 173.76,
-  "children_per_hour": 41.44,
+  "runtime_minutes": 178.42,
+  "children_per_hour": 40.35,
   "run_health": "stuck",
   "warnings": [
     "No promotions after 120+ children.",
@@ -648,5 +648,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 01:18:04 PM"
+  "updated_at": "2026-05-05 01:22:44 PM"
 }
