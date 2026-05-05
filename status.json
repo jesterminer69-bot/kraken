@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 13 of infinite: round_hotpool_quick_test.",
-    "Testing sideways_inventory_microgrid+sideways_false_breakout_fade+sideways_hurst_reversion+sideways_relative_value queued/24 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 13 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 13 / infinite",
-  "phase": "round_hotpool_quick_test",
-  "current_family": "sideways_inventory_microgrid+sideways_false_breakout_fade+sideways_hurst_reversion+sideways_relative_value",
-  "current_child": "queued/24 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 324,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T10:24:34.699466+00:00",
+  "generated_at": "2026-05-05T10:29:13.725047+00:00",
   "version": "14.3-sideways-menu-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T04:53:18.285419+00:00",
-  "runtime_minutes": 331.27,
-  "children_per_hour": 58.68,
+  "runtime_minutes": 335.92,
+  "children_per_hour": 57.87,
   "run_health": "watch",
   "warnings": [
     "No promotion in the latest event window.",
@@ -748,5 +748,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 05:24:34 AM"
+  "updated_at": "2026-05-05 05:29:13 AM"
 }
