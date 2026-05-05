@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 1 of infinite: round_hotpool_full_test.",
-    "Testing sideways_hurst_reversion+sideways_keltner_donchian+sideways_relative_value queued/7 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 1 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 1 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_hurst_reversion+sideways_keltner_donchian+sideways_relative_value",
-  "current_child": "queued/7 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 30,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T05:48:17.906013+00:00",
+  "generated_at": "2026-05-05T05:52:53.698455+00:00",
   "version": "14.3-sideways-menu-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T04:53:18.285419+00:00",
-  "runtime_minutes": 54.99,
-  "children_per_hour": 32.73,
+  "runtime_minutes": 59.59,
+  "children_per_hour": 30.21,
   "run_health": "healthy",
   "warnings": [
     "Sideways champion is still not net-profitable."
@@ -664,5 +664,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 12:48:17 AM"
+  "updated_at": "2026-05-05 12:52:53 AM"
 }
