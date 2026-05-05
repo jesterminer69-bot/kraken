@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 1 of infinite: round_hotpool_full_test.",
-    "Testing sideways_false_breakout_fade+sideways_inventory_microgrid+sideways_relative_value queued/3 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 1 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 1 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_false_breakout_fade+sideways_inventory_microgrid+sideways_relative_value",
-  "current_child": "queued/3 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 30,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T14:50:21.453951+00:00",
+  "generated_at": "2026-05-05T14:55:06.017209+00:00",
   "version": "14.6-parallel-startup-cache-github",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T13:41:37.675874+00:00",
-  "runtime_minutes": 68.73,
-  "children_per_hour": 26.19,
+  "runtime_minutes": 73.47,
+  "children_per_hour": 24.5,
   "run_health": "healthy",
   "warnings": [
     "Sideways champion is still not net-profitable."
@@ -593,5 +593,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 09:50:21 AM"
+  "updated_at": "2026-05-05 09:55:06 AM"
 }
