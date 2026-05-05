@@ -1,13 +1,13 @@
 {
   "current_task": [
-    "startup_market_loaded",
-    "Loaded 11 symbols with 524,553 combined timeline points. Startup/evolution multiprocessing workers=6.",
+    "startup_user_selection_complete",
+    "Run selected. Regimes=sideways_new; mode=infinite; rounds=infinite.",
     "Version: 14.6-parallel-startup-cache-github"
   ],
   "average_expected_apr": "",
   "cycle_progress": "startup",
-  "phase": "startup_market_loaded",
-  "current_family": "startup",
+  "phase": "startup_user_selection_complete",
+  "current_family": "sideways_new",
   "current_child": "",
   "children_tested": 0,
   "worker_processes": 6,
@@ -16,9 +16,9 @@
   "children_viable": 0,
   "children_pruned": 0,
   "promotions": 0,
-  "last_event": "Loaded 11 symbols with 524,553 combined timeline points. Startup/evolution multiprocessing workers=6.",
+  "last_event": "Run selected. Regimes=sideways_new; mode=infinite; rounds=infinite.",
   "last_promotion": "",
-  "generated_at": "2026-05-05T13:41:13.537551+00:00",
+  "generated_at": "2026-05-05T13:41:36.255886+00:00",
   "version": "14.6-parallel-startup-cache-github",
   "mode": "startup",
   "run_health": "startup",
@@ -27,5 +27,5 @@
     "STATUS_NOW.txt",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 08:41:13 AM"
+  "updated_at": "2026-05-05 08:41:36 AM"
 }
