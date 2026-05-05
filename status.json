@@ -1,78 +1,46 @@
 {
   "current_task": [
-    "Round 5 of infinite: round_complete.",
-    "Testing all families ; children are compared against family baselines and combined-selector impact.",
+    "Round 6 of infinite: round_hotpool_full_test.",
+    "Testing sideways_false_breakout_fade+sideways_keltner_donchian queued/4 workers/6; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
-  "cycle_progress": "Round 5 / infinite",
-  "phase": "round_complete",
-  "current_family": "",
-  "current_child": "",
-  "children_tested": 102,
+  "cycle_progress": "Round 6 / infinite",
+  "phase": "round_hotpool_full_test",
+  "current_family": "sideways_false_breakout_fade+sideways_keltner_donchian",
+  "current_child": "queued/4 workers/6",
+  "children_tested": 132,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
   "log_normalization": "main_process_clean_sorted_events",
-  "children_viable": 9,
-  "children_pruned": 93,
-  "promotions": 4,
-  "last_event": "sideways_hurst_reversion child 6 quick: ret=0.00% trades=0 viable=False no_trades",
-  "last_promotion": "sideways_inventory_microgrid -> sideways_inventory_microgrid_r3_child4 ret=-0.16% fit=-2.80",
+  "children_viable": 13,
+  "children_pruned": 119,
+  "promotions": 5,
+  "last_event": "sideways_keltner_donchian child 5 full: ret=-0.10% dd=-0.12% promoted=False",
+  "last_promotion": "sideways_false_breakout_fade -> sideways_false_breakout_fade_r6_child3 ret=-7.85% fit=-97.73",
   "testing_detail": [
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_false_breakout_fade",
-      "child": "sideways_false_breakout_fade_r5_child4",
-      "child_no": 4,
-      "status": "pruned",
-      "reason": "quick_disaster_return",
-      "quick_return_pct": -45.691,
-      "quick_trades": 635,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_false_breakout_fade",
-      "child": "sideways_false_breakout_fade_r5_child5",
-      "child_no": 5,
-      "status": "pruned",
-      "reason": "quick_disaster_return",
-      "quick_return_pct": -36.638,
-      "quick_trades": 646,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_false_breakout_fade",
-      "child": "sideways_false_breakout_fade_r5_wild_child6",
+      "family": "sideways_inventory_microgrid",
+      "child": "sideways_inventory_microgrid_r6_wild_child6",
       "child_no": 6,
       "status": "pruned",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
+      "reason": "under_benchmark_quick",
+      "quick_return_pct": -1.575,
+      "quick_trades": 37,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r5_child1",
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_child1",
       "child_no": 1,
       "status": "pruned",
       "reason": "no_trades",
@@ -84,43 +52,27 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r5_child2",
-      "child_no": 2,
-      "status": "pruned",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r5_child3",
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_child3",
       "child_no": 3,
       "status": "pruned",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -66.143,
+      "quick_trades": 1237,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r5_child4",
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_child4",
       "child_no": 4,
       "status": "pruned",
       "reason": "no_trades",
@@ -132,43 +84,27 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r5_child5",
-      "child_no": 5,
-      "status": "pruned",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r5_wild_child6",
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_wild_child6",
       "child_no": 6,
       "status": "pruned",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -41.632,
+      "quick_trades": 566,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_inventory_microgrid",
-      "child": "sideways_inventory_microgrid_r5_child1",
+      "family": "sideways_relative_value",
+      "child": "sideways_relative_value_r6_child1",
       "child_no": 1,
       "status": "pruned",
       "reason": "no_trades",
@@ -180,27 +116,27 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_inventory_microgrid",
-      "child": "sideways_inventory_microgrid_r5_child2",
+      "family": "sideways_relative_value",
+      "child": "sideways_relative_value_r6_child2",
       "child_no": 2,
       "status": "pruned",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
+      "reason": "quick_disaster_return",
+      "quick_return_pct": -10.836,
+      "quick_trades": 166,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_inventory_microgrid",
-      "child": "sideways_inventory_microgrid_r5_child3",
+      "family": "sideways_relative_value",
+      "child": "sideways_relative_value_r6_child3",
       "child_no": 3,
       "status": "pruned",
       "reason": "no_trades",
@@ -212,11 +148,11 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_inventory_microgrid",
-      "child": "sideways_inventory_microgrid_r5_child4",
+      "family": "sideways_relative_value",
+      "child": "sideways_relative_value_r6_child4",
       "child_no": 4,
       "status": "pruned",
       "reason": "no_trades",
@@ -228,11 +164,11 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_inventory_microgrid",
-      "child": "sideways_inventory_microgrid_r5_child5",
+      "family": "sideways_relative_value",
+      "child": "sideways_relative_value_r6_child5",
       "child_no": 5,
       "status": "pruned",
       "reason": "no_trades",
@@ -244,23 +180,87 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_inventory_microgrid",
-      "child": "sideways_inventory_microgrid_r5_wild_child6",
+      "family": "sideways_relative_value",
+      "child": "sideways_relative_value_r6_wild_child6",
       "child_no": 6,
       "status": "pruned",
-      "reason": "no_trades",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
+      "reason": "profit_factor_too_low",
+      "quick_return_pct": -0.914,
+      "quick_trades": 44,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
+      "phase": "full_test",
+      "parent": "sideways",
+      "family": "sideways_false_breakout_fade",
+      "child": "sideways_false_breakout_fade_r6_child3",
+      "child_no": 3,
+      "status": "promoted",
+      "reason": "relative_repair_gain_fit=612.88_ret=49.13",
+      "quick_return_pct": -3.256,
+      "quick_trades": 36,
+      "full_return_pct": -7.854,
+      "full_dd": -7.854,
+      "full_trades": 101,
+      "promoted": true
+    },
+    {
+      "round": 6,
+      "phase": "full_test",
+      "parent": "sideways",
+      "family": "sideways_false_breakout_fade",
+      "child": "sideways_false_breakout_fade_r6_wild_child6",
+      "child_no": 6,
+      "status": "viable",
+      "reason": "relative_repair_gain_fit=618.95_ret=49.37",
+      "quick_return_pct": -3.02,
+      "quick_trades": 28,
+      "full_return_pct": -6.894,
+      "full_dd": -6.923,
+      "full_trades": 89,
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "full_test",
+      "parent": "sideways",
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_child2",
+      "child_no": 2,
+      "status": "viable",
+      "reason": "relative_repair_gain_fit=657.08_ret=51.14",
+      "quick_return_pct": -4.423,
+      "quick_trades": 40,
+      "full_return_pct": -9.728,
+      "full_dd": -9.728,
+      "full_trades": 121,
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "full_test",
+      "parent": "sideways",
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_child5",
+      "child_no": 5,
+      "status": "viable",
+      "reason": "relative_repair_gain_fit=711.76_ret=55.54",
+      "quick_return_pct": -0.018,
+      "quick_trades": 1,
+      "full_return_pct": -0.099,
+      "full_dd": -0.116,
+      "full_trades": 2,
+      "promoted": false
+    },
+    {
+      "round": 6,
       "phase": "quick_test",
       "parent": "regime",
       "family": "regime",
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T07:12:41.385548+00:00",
+  "generated_at": "2026-05-05T07:36:42.594475+00:00",
   "version": "14.3-sideways-menu-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T04:53:18.285419+00:00",
-  "runtime_minutes": 139.38,
-  "children_per_hour": 43.91,
+  "runtime_minutes": 163.41,
+  "children_per_hour": 48.47,
   "run_health": "watch",
   "warnings": [
     "Very low viable-child rate; mutation space may be too harsh or parents are strong.",
@@ -294,10 +294,10 @@
       "Very low viable-child rate; mutation space may be too harsh or parents are strong.",
       "Sideways champion is still not net-profitable."
     ],
-    "viable_rate_pct": 8.82,
-    "prune_rate_pct": 91.18,
-    "promotion_rate_pct": 3.92,
-    "full_tests_seen": 9,
+    "viable_rate_pct": 9.85,
+    "prune_rate_pct": 90.15,
+    "promotion_rate_pct": 3.79,
+    "full_tests_seen": 13,
     "best_current_regime": "bear",
     "weakest_current_regime": "bull",
     "suggested_focus": "sideways profitability and fee-aware trade quality"
@@ -409,50 +409,64 @@
   "family_scoreboard": [
     {
       "family": "sideways_relative_value",
-      "tested": 10,
+      "tested": 16,
       "quick_viable": 3,
       "full_tests": 3,
       "promotions": 2,
-      "pruned": 7,
+      "pruned": 13,
       "suppressed": 5,
-      "last_reason": "family_suppressed_until_round_5",
+      "last_reason": "profit_factor_too_low",
       "last_return_pct": -1.624,
       "best_full_return_pct": -1.624,
-      "viable_rate_pct": 30.0,
-      "promotion_rate_pct": 20.0
+      "viable_rate_pct": 18.75,
+      "promotion_rate_pct": 12.5
     },
     {
       "family": "sideways_hurst_reversion",
-      "tested": 30,
+      "tested": 36,
       "quick_viable": 4,
       "full_tests": 4,
       "promotions": 1,
-      "pruned": 26,
+      "pruned": 32,
       "suppressed": 0,
-      "last_reason": "no_trades",
+      "last_reason": "quick_disaster_return",
       "last_return_pct": 0.084,
       "best_full_return_pct": 0.084,
-      "viable_rate_pct": 13.33,
-      "promotion_rate_pct": 3.33
+      "viable_rate_pct": 11.11,
+      "promotion_rate_pct": 2.78
+    },
+    {
+      "family": "sideways_false_breakout_fade",
+      "tested": 36,
+      "quick_viable": 2,
+      "full_tests": 2,
+      "promotions": 1,
+      "pruned": 34,
+      "suppressed": 0,
+      "last_reason": "relative_repair_gain_fit=618.95_ret=49.37",
+      "last_return_pct": -6.894,
+      "best_full_return_pct": -6.894,
+      "viable_rate_pct": 5.56,
+      "promotion_rate_pct": 2.78
     },
     {
       "family": "sideways_inventory_microgrid",
-      "tested": 30,
+      "tested": 36,
       "quick_viable": 1,
       "full_tests": 1,
       "promotions": 1,
-      "pruned": 29,
+      "pruned": 35,
       "suppressed": 0,
-      "last_reason": "no_trades",
+      "last_reason": "under_benchmark_quick",
       "last_return_pct": -0.163,
       "best_full_return_pct": -0.163,
-      "viable_rate_pct": 3.33,
-      "promotion_rate_pct": 3.33
+      "viable_rate_pct": 2.78,
+      "promotion_rate_pct": 2.78
     },
     {
       "family": "regime",
-      "tested": 5,
-      "quick_viable": 5,
+      "tested": 6,
+      "quick_viable": 6,
       "full_tests": 0,
       "promotions": 0,
       "pruned": 0,
@@ -465,30 +479,16 @@
     },
     {
       "family": "sideways_keltner_donchian",
-      "tested": 10,
-      "quick_viable": 1,
-      "full_tests": 1,
+      "tested": 16,
+      "quick_viable": 3,
+      "full_tests": 3,
       "promotions": 0,
-      "pruned": 9,
+      "pruned": 13,
       "suppressed": 5,
-      "last_reason": "family_suppressed_until_round_5",
-      "last_return_pct": -13.426,
-      "best_full_return_pct": -13.426,
-      "viable_rate_pct": 10.0,
-      "promotion_rate_pct": 0.0
-    },
-    {
-      "family": "sideways_false_breakout_fade",
-      "tested": 30,
-      "quick_viable": 0,
-      "full_tests": 0,
-      "promotions": 0,
-      "pruned": 30,
-      "suppressed": 0,
-      "last_reason": "no_trades",
-      "last_return_pct": "",
-      "best_full_return_pct": "",
-      "viable_rate_pct": 0.0,
+      "last_reason": "relative_repair_gain_fit=711.76_ret=55.54",
+      "last_return_pct": -0.099,
+      "best_full_return_pct": -0.099,
+      "viable_rate_pct": 18.75,
       "promotion_rate_pct": 0.0
     }
   ],
@@ -532,39 +532,19 @@
       "drawdown_pct": -0.163,
       "trades": 5,
       "reason": "combined_delta_0.00pct"
+    },
+    {
+      "round": 6,
+      "family": "sideways_false_breakout_fade",
+      "child": "sideways_false_breakout_fade_r6_child3",
+      "return_pct": -7.854,
+      "fitness": -97.727,
+      "drawdown_pct": -7.854,
+      "trades": 101,
+      "reason": "combined_delta_0.00pct"
     }
   ],
   "recent_full_tests": [
-    {
-      "round": 1,
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r1_child1",
-      "return_pct": -1.127,
-      "drawdown_pct": -1.184,
-      "trades": 47,
-      "promoted": true,
-      "guard": "combined_delta_0.00pct"
-    },
-    {
-      "round": 1,
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r1_child4",
-      "return_pct": -1.419,
-      "drawdown_pct": -1.433,
-      "trades": 8,
-      "promoted": false,
-      "guard": "quick_full_consistent"
-    },
-    {
-      "round": 1,
-      "family": "sideways_hurst_reversion",
-      "child": "sideways_hurst_reversion_r1_wild_child6",
-      "return_pct": -5.249,
-      "drawdown_pct": -5.263,
-      "trades": 67,
-      "promoted": false,
-      "guard": "quick_full_consistent"
-    },
     {
       "round": 1,
       "family": "sideways_keltner_donchian",
@@ -624,16 +604,56 @@
       "trades": 5,
       "promoted": true,
       "guard": "combined_delta_0.00pct"
+    },
+    {
+      "round": 6,
+      "family": "sideways_false_breakout_fade",
+      "child": "sideways_false_breakout_fade_r6_child3",
+      "return_pct": -7.854,
+      "drawdown_pct": -7.854,
+      "trades": 101,
+      "promoted": true,
+      "guard": "combined_delta_0.00pct"
+    },
+    {
+      "round": 6,
+      "family": "sideways_false_breakout_fade",
+      "child": "sideways_false_breakout_fade_r6_wild_child6",
+      "return_pct": -6.894,
+      "drawdown_pct": -6.923,
+      "trades": 89,
+      "promoted": false,
+      "guard": "quick_full_consistent"
+    },
+    {
+      "round": 6,
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_child2",
+      "return_pct": -9.728,
+      "drawdown_pct": -9.728,
+      "trades": 121,
+      "promoted": false,
+      "guard": "quick_full_consistent"
+    },
+    {
+      "round": 6,
+      "family": "sideways_keltner_donchian",
+      "child": "sideways_keltner_donchian_r6_child5",
+      "return_pct": -0.099,
+      "drawdown_pct": -0.116,
+      "trades": 2,
+      "promoted": false,
+      "guard": "quick_full_consistent"
     }
   ],
   "top_failure_reasons": [
     {
       "reason": "no_trades",
-      "count": 70
+      "count": 86
     },
     {
       "reason": "quick_disaster_return",
-      "count": 22
+      "count": 28
     },
     {
       "reason": "family_suppressed_until_round_5",
@@ -641,7 +661,11 @@
     },
     {
       "reason": "focused_run_sideways_new_keeps_current_regime_windows",
-      "count": 5
+      "count": 6
+    },
+    {
+      "reason": "under_benchmark_quick",
+      "count": 4
     },
     {
       "reason": "relative_repair_gain_fit=57.52_ret=4.84",
@@ -653,10 +677,6 @@
     },
     {
       "reason": "relative_repair_gain_fit=35.42_ret=3.67",
-      "count": 1
-    },
-    {
-      "reason": "relative_repair_gain_fit=659.92_ret=51.91",
       "count": 1
     }
   ],
@@ -679,11 +699,11 @@
     },
     {
       "label": "Promotions",
-      "value": "4"
+      "value": "5"
     },
     {
       "label": "Viable Rate",
-      "value": "8.82%"
+      "value": "9.85%"
     }
   ],
   "files_to_send_chatgpt": [
@@ -696,5 +716,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 02:12:41 AM"
+  "updated_at": "2026-05-05 02:36:42 AM"
 }
