@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 20 of infinite: round_hotpool_full_test.",
-    "Testing sideways_keltner_donchian+sideways_relative_value queued/2 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 20 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 20 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_keltner_donchian+sideways_relative_value",
-  "current_child": "queued/2 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 528,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T13:07:59.797600+00:00",
+  "generated_at": "2026-05-05T13:12:39.802961+00:00",
   "version": "14.3-sideways-menu-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T04:53:18.285419+00:00",
-  "runtime_minutes": 494.69,
-  "children_per_hour": 64.04,
+  "runtime_minutes": 499.36,
+  "children_per_hour": 63.44,
   "run_health": "watch",
   "warnings": [
     "No promotion in the latest event window.",
@@ -748,5 +748,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 08:07:59 AM"
+  "updated_at": "2026-05-05 08:12:39 AM"
 }
