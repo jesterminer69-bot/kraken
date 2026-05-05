@@ -16,7 +16,7 @@
   "children_viable": 69,
   "children_pruned": 315,
   "promotions": 7,
-  "last_event": "sideways_mean_reversion_strict child 6 quick: ret=0.00% trades=0 viable=False no_trades",
+  "last_event": "bear_bounce_scalp: suppressed this round after prior catastrophic result",
   "last_promotion": "bear_defensive_dca -> bear_defensive_dca_r6_child5 ret=0.44% fit=48.86",
   "testing_detail": [
     {
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T01:09:18.815718+00:00",
+  "generated_at": "2026-05-05T01:18:41.661015+00:00",
   "version": "13.5.4-mp6-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-04T16:23:21.812604+00:00",
-  "runtime_minutes": 525.95,
-  "children_per_hour": 48.6,
+  "runtime_minutes": 535.33,
+  "children_per_hour": 47.75,
   "run_health": "healthy",
   "warnings": [
     "Sideways champion is still not net-profitable."
@@ -477,16 +477,16 @@
     },
     {
       "family": "bear_bounce_scalp",
-      "tested": 36,
+      "tested": 37,
       "quick_viable": 22,
       "full_tests": 22,
       "promotions": 0,
-      "pruned": 14,
-      "suppressed": 1,
-      "last_reason": "viable",
+      "pruned": 15,
+      "suppressed": 2,
+      "last_reason": "family_suppressed_until_round_10",
       "last_return_pct": -4.488,
       "best_full_return_pct": 0.0,
-      "viable_rate_pct": 61.11,
+      "viable_rate_pct": 59.46,
       "promotion_rate_pct": 0.0
     },
     {
@@ -519,11 +519,11 @@
     },
     {
       "family": "bear_cash",
-      "tested": 6,
+      "tested": 7,
       "quick_viable": 0,
       "full_tests": 0,
       "promotions": 0,
-      "pruned": 6,
+      "pruned": 7,
       "suppressed": 0,
       "last_reason": "bear_cash_anchor_skip_child_tests",
       "last_return_pct": "",
@@ -775,7 +775,7 @@
     },
     {
       "reason": "bear_cash_anchor_skip_child_tests",
-      "count": 6
+      "count": 7
     },
     {
       "reason": "family_suppressed_until_round_5",
@@ -818,5 +818,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-04 08:09:18 PM"
+  "updated_at": "2026-05-04 08:18:41 PM"
 }
