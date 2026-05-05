@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 17 of infinite: round_hotpool_full_test.",
-    "Testing sideways_false_breakout_fade queued/1 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 17 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 17 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_false_breakout_fade",
-  "current_child": "queued/1 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 438,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T11:57:33.633581+00:00",
+  "generated_at": "2026-05-05T12:02:13.907459+00:00",
   "version": "14.3-sideways-menu-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T04:53:18.285419+00:00",
-  "runtime_minutes": 424.26,
-  "children_per_hour": 61.94,
+  "runtime_minutes": 428.93,
+  "children_per_hour": 61.27,
   "run_health": "watch",
   "warnings": [
     "No promotion in the latest event window.",
@@ -748,5 +748,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 06:57:33 AM"
+  "updated_at": "2026-05-05 07:02:13 AM"
 }
