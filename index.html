@@ -1,9 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Kraken Bot Status</title>
-  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
 
@@ -14,16 +15,37 @@
       <h2>Current Task</h2>
       <p id="task1"></p>
       <p id="task2"></p>
+      <p id="task3"></p>
     </div>
 
     <div class="card">
-      <h2>Expected APR</h2>
-      <p id="apr"></p>
+      <h2>Status Cards</h2>
+      <div id="cards" class="cards-grid"></div>
+    </div>
+
+    <div class="card">
+      <h2>Run Status</h2>
+      <p><strong>Version:</strong> <span id="version"></span></p>
+      <p><strong>Mode:</strong> <span id="mode"></span></p>
+      <p><strong>Phase:</strong> <span id="phase"></span></p>
+      <p><strong>Runtime:</strong> <span id="runtime"></span></p>
+      <p><strong>Workers:</strong> <span id="workers"></span></p>
+      <p><strong>Multiprocessing:</strong> <span id="multiprocessing"></span></p>
+    </div>
+
+    <div class="card">
+      <h2>Champions</h2>
+      <div id="champions"></div>
     </div>
 
     <div class="card">
       <h2>Testing Details</h2>
       <div id="details"></div>
+    </div>
+
+    <div class="card">
+      <h2>Warnings</h2>
+      <div id="warnings"></div>
     </div>
 
     <div class="footer">
