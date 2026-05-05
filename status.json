@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 10 of infinite: round_hotpool_full_test.",
-    "Testing sideways_keltner_donchian queued/2 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 10 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: sideways profitability and fee-aware trade quality"
   ],
   "average_expected_apr": "1.87%",
   "cycle_progress": "Round 10 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_keltner_donchian",
-  "current_child": "queued/2 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 252,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -276,13 +276,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-05T09:27:54.414098+00:00",
+  "generated_at": "2026-05-05T09:32:32.359511+00:00",
   "version": "14.3-sideways-menu-hotpool",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-05T04:53:18.285419+00:00",
-  "runtime_minutes": 274.6,
-  "children_per_hour": 55.06,
+  "runtime_minutes": 279.23,
+  "children_per_hour": 54.15,
   "run_health": "watch",
   "warnings": [
     "Very low viable-child rate; mutation space may be too harsh or parents are strong.",
@@ -746,5 +746,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-05 04:27:54 AM"
+  "updated_at": "2026-05-05 04:32:32 AM"
 }
