@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 2 of infinite: round_hotpool_full_test.",
-    "Testing sideways_transition_reversal+sideways_volatility_box_trader+sideways_wide_range_reclaim_conservative queued/3 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 2 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: keep evolving"
   ],
   "average_expected_apr": "1.94%",
   "cycle_progress": "Round 2 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_transition_reversal+sideways_volatility_box_trader+sideways_wide_range_reclaim_conservative",
-  "current_child": "queued/3 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 60,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -277,13 +277,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-06T07:08:48.940365+00:00",
+  "generated_at": "2026-05-06T07:12:56.498014+00:00",
   "version": "14.8-discovered-sideways-reclaim",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-06T05:40:46.790842+00:00",
-  "runtime_minutes": 88.04,
-  "children_per_hour": 40.89,
+  "runtime_minutes": 92.16,
+  "children_per_hour": 39.06,
   "run_health": "healthy",
   "warnings": [
     "ok"
@@ -747,5 +747,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-06 02:08:48 AM"
+  "updated_at": "2026-05-06 02:12:56 AM"
 }
