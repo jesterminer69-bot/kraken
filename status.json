@@ -1,143 +1,31 @@
 {
   "current_task": [
-    "Round 5 of infinite: round_complete.",
-    "Testing all families ; children are compared against family baselines and combined-selector impact.",
+    "Round 6 of infinite: round_hotpool_full_test.",
+    "Testing sideways_transition_breakout+sideways_wide_range_reclaim_conservative+sideways_wide_range_reclaim_wild queued/3 workers/6; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: mutation diversity and looser micro-pretest gates"
   ],
   "average_expected_apr": "1.94%",
-  "cycle_progress": "Round 5 / infinite",
-  "phase": "round_complete",
-  "current_family": "",
-  "current_child": "",
-  "children_tested": 114,
+  "cycle_progress": "Round 6 / infinite",
+  "phase": "round_hotpool_full_test",
+  "current_family": "sideways_transition_breakout+sideways_wide_range_reclaim_conservative+sideways_wide_range_reclaim_wild",
+  "current_child": "queued/3 workers/6",
+  "children_tested": 144,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
   "multiprocessing_mode": "quick=process_pool;full=process_pool;recovery=process_pool;startup=process_pool",
   "log_normalization": "main_process_clean_sorted_events",
-  "children_viable": 15,
-  "children_pruned": 99,
-  "promotions": 9,
-  "last_event": "sideways_transition_reversal child 6 quick: ret=0.05% trades=2 viable=False persistent_quick_cache_miss_parallel_profit_factor_too_low",
-  "last_promotion": "sideways_wide_range_reclaim_balanced -> sideways_wide_range_reclaim_balanced_r3_child3_loose_retry2 ret=-0.65% fit=-0.06",
+  "children_viable": 18,
+  "children_pruned": 126,
+  "promotions": 11,
+  "last_event": "sideways_transition_breakout child 5 full: ret=-4.72% dd=-4.76% promoted=False",
+  "last_promotion": "sideways_wide_range_reclaim_wild -> sideways_wide_range_reclaim_wild_r6_wild_child6 ret=-0.62% fit=-23.08",
   "testing_detail": [
     {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_transition_reversal",
-      "child": "sideways_transition_reversal_r5_child4",
-      "child_no": 4,
-      "status": "pruned",
-      "reason": "persistent_quick_cache_miss_parallel_profit_factor_too_low",
-      "quick_return_pct": -0.014,
-      "quick_trades": 1,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_transition_reversal",
-      "child": "sideways_transition_reversal_r5_child5",
-      "child_no": 5,
-      "status": "pruned",
-      "reason": "persistent_quick_cache_miss_parallel_under_benchmark_quick",
-      "quick_return_pct": -4.487,
-      "quick_trades": 113,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_transition_reversal",
-      "child": "sideways_transition_reversal_r5_wild_child6",
-      "child_no": 6,
-      "status": "pruned",
-      "reason": "persistent_quick_cache_miss_parallel_profit_factor_too_low",
-      "quick_return_pct": 0.047,
-      "quick_trades": 2,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
       "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r5_child1_loose_retry3",
-      "child_no": 1,
-      "status": "pruned",
-      "reason": "no_trades|no_trade_recovery_attempts=3",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r5_child2_loose_retry3",
-      "child_no": 2,
-      "status": "pruned",
-      "reason": "no_trades|no_trade_recovery_attempts=3",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r5_child3_loose_retry1",
-      "child_no": 3,
-      "status": "pruned",
-      "reason": "quick_disaster_return|no_trade_recovery_attempts=1",
-      "quick_return_pct": -17.024,
-      "quick_trades": 135,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r5_child4_loose_retry3",
-      "child_no": 4,
-      "status": "pruned",
-      "reason": "no_trades|no_trade_recovery_attempts=3",
-      "quick_return_pct": 0.0,
-      "quick_trades": 0,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
-    },
-    {
-      "round": 5,
-      "phase": "quick_test",
-      "parent": "sideways",
-      "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r5_child5_loose_retry3",
+      "child": "sideways_wide_range_reclaim_balanced_r6_child5_loose_retry3",
       "child_no": 5,
       "status": "pruned",
       "reason": "no_trades|no_trade_recovery_attempts=3",
@@ -149,11 +37,11 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
       "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r5_child6_loose_retry3",
+      "child": "sideways_wide_range_reclaim_balanced_r6_child6_loose_retry3",
       "child_no": 6,
       "status": "pruned",
       "reason": "no_trades|no_trade_recovery_attempts=3",
@@ -165,103 +53,215 @@
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
       "family": "sideways_wide_range_reclaim_conservative",
-      "child": "sideways_wide_range_reclaim_conservative_r5_child1_loose_retry1",
+      "child": "sideways_wide_range_reclaim_conservative_r6_child1_loose_retry3",
       "child_no": 1,
       "status": "pruned",
-      "reason": "profit_factor_too_low|no_trade_recovery_attempts=1",
-      "quick_return_pct": -0.998,
-      "quick_trades": 24,
+      "reason": "under_benchmark_quick|no_trade_recovery_attempts=3",
+      "quick_return_pct": -3.402,
+      "quick_trades": 102,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
       "family": "sideways_wide_range_reclaim_conservative",
-      "child": "sideways_wide_range_reclaim_conservative_r5_child2_loose_retry3",
+      "child": "sideways_wide_range_reclaim_conservative_r6_child2_loose_retry3",
       "child_no": 2,
       "status": "pruned",
       "reason": "under_benchmark_quick|no_trade_recovery_attempts=3",
-      "quick_return_pct": -3.435,
-      "quick_trades": 110,
+      "quick_return_pct": -3.423,
+      "quick_trades": 84,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
       "family": "sideways_wide_range_reclaim_conservative",
-      "child": "sideways_wide_range_reclaim_conservative_r5_child3_loose_retry1",
+      "child": "sideways_wide_range_reclaim_conservative_r6_child3_loose_retry1",
       "child_no": 3,
       "status": "pruned",
       "reason": "quick_disaster_return|no_trade_recovery_attempts=1",
-      "quick_return_pct": -30.82,
-      "quick_trades": 777,
+      "quick_return_pct": -9.301,
+      "quick_trades": 217,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
       "family": "sideways_wide_range_reclaim_conservative",
-      "child": "sideways_wide_range_reclaim_conservative_r5_child4",
+      "child": "sideways_wide_range_reclaim_conservative_r6_child4_loose_retry1",
+      "child_no": 4,
+      "status": "pruned",
+      "reason": "quick_disaster_return|no_trade_recovery_attempts=1",
+      "quick_return_pct": -12.345,
+      "quick_trades": 425,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_wide_range_reclaim_conservative",
+      "child": "sideways_wide_range_reclaim_conservative_r6_wild_child6",
+      "child_no": 6,
+      "status": "pruned",
+      "reason": "persistent_quick_cache_miss_parallel_under_benchmark_quick",
+      "quick_return_pct": -7.155,
+      "quick_trades": 234,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_child1_loose_retry3",
+      "child_no": 1,
+      "status": "pruned",
+      "reason": "under_benchmark_quick|no_trade_recovery_attempts=3",
+      "quick_return_pct": -3.45,
+      "quick_trades": 100,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_child2_loose_retry3",
+      "child_no": 2,
+      "status": "pruned",
+      "reason": "under_benchmark_quick|no_trade_recovery_attempts=3",
+      "quick_return_pct": -3.403,
+      "quick_trades": 74,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_child3",
+      "child_no": 3,
+      "status": "pruned",
+      "reason": "persistent_quick_cache_miss_parallel_quick_disaster_return",
+      "quick_return_pct": -17.555,
+      "quick_trades": 373,
+      "full_return_pct": "",
+      "full_dd": "",
+      "full_trades": "",
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "quick_test",
+      "parent": "sideways",
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_child4",
       "child_no": 4,
       "status": "pruned",
       "reason": "persistent_quick_cache_miss_parallel_quick_disaster_return",
-      "quick_return_pct": -14.125,
-      "quick_trades": 468,
+      "quick_return_pct": -17.918,
+      "quick_trades": 417,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
+      "round": 6,
       "phase": "quick_test",
       "parent": "sideways",
-      "family": "sideways_wide_range_reclaim_conservative",
-      "child": "sideways_wide_range_reclaim_conservative_r5_child5_loose_retry1",
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_child5",
       "child_no": 5,
       "status": "pruned",
-      "reason": "quick_disaster_return|no_trade_recovery_attempts=1",
-      "quick_return_pct": -16.02,
-      "quick_trades": 458,
+      "reason": "persistent_quick_cache_miss_parallel_quick_disaster_return",
+      "quick_return_pct": -15.424,
+      "quick_trades": 389,
       "full_return_pct": "",
       "full_dd": "",
       "full_trades": "",
       "promoted": false
     },
     {
-      "round": 5,
-      "phase": "quick_test",
+      "round": 6,
+      "phase": "full_test",
+      "parent": "sideways",
+      "family": "sideways_transition_breakout",
+      "child": "sideways_transition_breakout_r6_child5",
+      "child_no": 5,
+      "status": "viable",
+      "reason": "persistent_quick_cache_miss_parallel_relative_repair_gain_fit=31.62_ret=1.46",
+      "quick_return_pct": -0.992,
+      "quick_trades": 29,
+      "full_return_pct": -4.718,
+      "full_dd": -4.758,
+      "full_trades": 83,
+      "promoted": false
+    },
+    {
+      "round": 6,
+      "phase": "full_test",
       "parent": "sideways",
       "family": "sideways_wide_range_reclaim_conservative",
-      "child": "sideways_wide_range_reclaim_conservative_r5_wild_child6",
-      "child_no": 6,
-      "status": "pruned",
-      "reason": "persistent_quick_cache_miss_parallel_quick_disaster_return",
-      "quick_return_pct": -10.582,
-      "quick_trades": 322,
-      "full_return_pct": "",
-      "full_dd": "",
-      "full_trades": "",
-      "promoted": false
+      "child": "sideways_wide_range_reclaim_conservative_r6_child5",
+      "child_no": 5,
+      "status": "promoted",
+      "reason": "persistent_quick_cache_miss_parallel_relative_repair_gain_fit=46.56_ret=1.45",
+      "quick_return_pct": -0.194,
+      "quick_trades": 4,
+      "full_return_pct": -0.312,
+      "full_dd": -0.312,
+      "full_trades": 7,
+      "promoted": true
     },
     {
-      "round": 5,
+      "round": 6,
+      "phase": "full_test",
+      "parent": "sideways",
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_wild_child6",
+      "child_no": 6,
+      "status": "promoted",
+      "reason": "persistent_quick_cache_miss_parallel_relative_repair_gain_fit=55.52_ret=3.30",
+      "quick_return_pct": -0.096,
+      "quick_trades": 2,
+      "full_return_pct": -0.617,
+      "full_dd": -0.807,
+      "full_trades": 16,
+      "promoted": true
+    },
+    {
+      "round": 6,
       "phase": "quick_test",
       "parent": "regime",
       "family": "regime",
@@ -277,13 +277,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-06T08:33:59.000293+00:00",
+  "generated_at": "2026-05-06T09:12:48.231966+00:00",
   "version": "14.8-discovered-sideways-reclaim",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-06T05:40:46.790842+00:00",
-  "runtime_minutes": 173.2,
-  "children_per_hour": 39.49,
+  "runtime_minutes": 212.02,
+  "children_per_hour": 40.75,
   "run_health": "healthy",
   "warnings": [
     "ok"
@@ -293,10 +293,10 @@
     "warnings": [
       "ok"
     ],
-    "viable_rate_pct": 13.16,
-    "prune_rate_pct": 86.84,
-    "promotion_rate_pct": 7.89,
-    "full_tests_seen": 15,
+    "viable_rate_pct": 12.5,
+    "prune_rate_pct": 87.5,
+    "promotion_rate_pct": 7.64,
+    "full_tests_seen": 18,
     "best_current_regime": "bear",
     "weakest_current_regime": "bull",
     "suggested_focus": "mutation diversity and looser micro-pretest gates"
@@ -405,93 +405,93 @@
   },
   "family_scoreboard": [
     {
+      "family": "sideways_wide_range_reclaim_wild",
+      "tested": 16,
+      "quick_viable": 4,
+      "full_tests": 4,
+      "promotions": 3,
+      "pruned": 12,
+      "suppressed": 5,
+      "last_reason": "persistent_quick_cache_miss_parallel_relative_repair_gain_fit=55.52_ret=3.30",
+      "last_return_pct": -0.617,
+      "best_full_return_pct": -0.617,
+      "viable_rate_pct": 25.0,
+      "promotion_rate_pct": 18.75
+    },
+    {
       "family": "sideways_wide_range_reclaim_balanced",
-      "tested": 30,
+      "tested": 36,
       "quick_viable": 3,
       "full_tests": 3,
       "promotions": 3,
-      "pruned": 27,
+      "pruned": 33,
       "suppressed": 0,
       "last_reason": "no_trades|no_trade_recovery_attempts=3",
       "last_return_pct": -0.653,
       "best_full_return_pct": -0.653,
-      "viable_rate_pct": 10.0,
-      "promotion_rate_pct": 10.0
-    },
-    {
-      "family": "sideways_wide_range_reclaim_wild",
-      "tested": 10,
-      "quick_viable": 3,
-      "full_tests": 3,
-      "promotions": 2,
-      "pruned": 7,
-      "suppressed": 5,
-      "last_reason": "family_suppressed_until_round_5",
-      "last_return_pct": -3.394,
-      "best_full_return_pct": -3.394,
-      "viable_rate_pct": 30.0,
-      "promotion_rate_pct": 20.0
-    },
-    {
-      "family": "sideways_transition_breakout",
-      "tested": 10,
-      "quick_viable": 4,
-      "full_tests": 4,
-      "promotions": 1,
-      "pruned": 6,
-      "suppressed": 6,
-      "last_reason": "family_suppressed_until_round_5",
-      "last_return_pct": -12.424,
-      "best_full_return_pct": -2.455,
-      "viable_rate_pct": 40.0,
-      "promotion_rate_pct": 10.0
-    },
-    {
-      "family": "sideways_transition_reversal",
-      "tested": 30,
-      "quick_viable": 3,
-      "full_tests": 3,
-      "promotions": 1,
-      "pruned": 27,
-      "suppressed": 0,
-      "last_reason": "persistent_quick_cache_miss_parallel_profit_factor_too_low",
-      "last_return_pct": -0.078,
-      "best_full_return_pct": -0.078,
-      "viable_rate_pct": 10.0,
-      "promotion_rate_pct": 3.33
+      "viable_rate_pct": 8.33,
+      "promotion_rate_pct": 8.33
     },
     {
       "family": "sideways_wide_range_reclaim_conservative",
-      "tested": 30,
-      "quick_viable": 1,
-      "full_tests": 1,
-      "promotions": 1,
-      "pruned": 29,
+      "tested": 36,
+      "quick_viable": 2,
+      "full_tests": 2,
+      "promotions": 2,
+      "pruned": 34,
       "suppressed": 0,
-      "last_reason": "persistent_quick_cache_miss_parallel_quick_disaster_return",
-      "last_return_pct": -1.64,
-      "best_full_return_pct": -1.64,
-      "viable_rate_pct": 3.33,
-      "promotion_rate_pct": 3.33
+      "last_reason": "persistent_quick_cache_miss_parallel_relative_repair_gain_fit=46.56_ret=1.45",
+      "last_return_pct": -0.312,
+      "best_full_return_pct": -0.312,
+      "viable_rate_pct": 5.56,
+      "promotion_rate_pct": 5.56
+    },
+    {
+      "family": "sideways_transition_breakout",
+      "tested": 16,
+      "quick_viable": 5,
+      "full_tests": 5,
+      "promotions": 1,
+      "pruned": 11,
+      "suppressed": 6,
+      "last_reason": "persistent_quick_cache_miss_parallel_relative_repair_gain_fit=31.62_ret=1.46",
+      "last_return_pct": -4.718,
+      "best_full_return_pct": -2.455,
+      "viable_rate_pct": 31.25,
+      "promotion_rate_pct": 6.25
+    },
+    {
+      "family": "sideways_transition_reversal",
+      "tested": 36,
+      "quick_viable": 3,
+      "full_tests": 3,
+      "promotions": 1,
+      "pruned": 33,
+      "suppressed": 0,
+      "last_reason": "persistent_quick_cache_miss_parallel_under_benchmark_quick",
+      "last_return_pct": -0.078,
+      "best_full_return_pct": -0.078,
+      "viable_rate_pct": 8.33,
+      "promotion_rate_pct": 2.78
     },
     {
       "family": "sideways_volatility_box_trader",
-      "tested": 15,
+      "tested": 16,
       "quick_viable": 1,
       "full_tests": 1,
       "promotions": 1,
-      "pruned": 14,
-      "suppressed": 4,
+      "pruned": 15,
+      "suppressed": 5,
       "last_reason": "family_suppressed_until_round_6",
       "last_return_pct": -9.616,
       "best_full_return_pct": -9.616,
-      "viable_rate_pct": 6.67,
-      "promotion_rate_pct": 6.67
+      "viable_rate_pct": 6.25,
+      "promotion_rate_pct": 6.25
     },
     {
       "family": "regime",
-      "tested": 5,
-      "quick_viable": 5,
+      "tested": 6,
+      "quick_viable": 6,
       "full_tests": 0,
       "promotions": 0,
       "pruned": 0,
@@ -504,26 +504,6 @@
     }
   ],
   "recent_promotions": [
-    {
-      "round": 1,
-      "family": "sideways_transition_reversal",
-      "child": "sideways_transition_reversal_r1_child3",
-      "return_pct": -0.315,
-      "fitness": 3.209,
-      "drawdown_pct": -0.485,
-      "trades": 6,
-      "reason": "combined_delta_0.00pct"
-    },
-    {
-      "round": 1,
-      "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r1_child3",
-      "return_pct": -5.649,
-      "fitness": -67.69,
-      "drawdown_pct": -5.649,
-      "trades": 44,
-      "reason": "combined_delta_0.00pct"
-    },
     {
       "round": 1,
       "family": "sideways_wide_range_reclaim_wild",
@@ -583,39 +563,29 @@
       "drawdown_pct": -1.131,
       "trades": 7,
       "reason": "combined_delta_0.00pct"
+    },
+    {
+      "round": 6,
+      "family": "sideways_wide_range_reclaim_conservative",
+      "child": "sideways_wide_range_reclaim_conservative_r6_child5",
+      "return_pct": -0.312,
+      "fitness": -4.194,
+      "drawdown_pct": -0.312,
+      "trades": 7,
+      "reason": "combined_delta_0.00pct"
+    },
+    {
+      "round": 6,
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_wild_child6",
+      "return_pct": -0.617,
+      "fitness": -23.081,
+      "drawdown_pct": -0.807,
+      "trades": 16,
+      "reason": "combined_delta_0.00pct"
     }
   ],
   "recent_full_tests": [
-    {
-      "round": 1,
-      "family": "sideways_transition_reversal",
-      "child": "sideways_transition_reversal_r1_wild_child6",
-      "return_pct": -7.932,
-      "drawdown_pct": -8.098,
-      "trades": 126,
-      "promoted": false,
-      "guard": "quick_full_consistent"
-    },
-    {
-      "round": 1,
-      "family": "sideways_wide_range_reclaim_balanced",
-      "child": "sideways_wide_range_reclaim_balanced_r1_child3",
-      "return_pct": -5.649,
-      "drawdown_pct": -5.649,
-      "trades": 44,
-      "promoted": true,
-      "guard": "combined_delta_0.00pct"
-    },
-    {
-      "round": 1,
-      "family": "sideways_wide_range_reclaim_wild",
-      "child": "sideways_wide_range_reclaim_wild_r1_child3",
-      "return_pct": -7.19,
-      "drawdown_pct": -7.304,
-      "trades": 195,
-      "promoted": true,
-      "guard": "combined_delta_0.00pct"
-    },
     {
       "round": 1,
       "family": "sideways_wide_range_reclaim_wild",
@@ -685,40 +655,70 @@
       "trades": 7,
       "promoted": true,
       "guard": "combined_delta_0.00pct"
+    },
+    {
+      "round": 6,
+      "family": "sideways_transition_breakout",
+      "child": "sideways_transition_breakout_r6_child5",
+      "return_pct": -4.718,
+      "drawdown_pct": -4.758,
+      "trades": 83,
+      "promoted": false,
+      "guard": "quick_full_consistent"
+    },
+    {
+      "round": 6,
+      "family": "sideways_wide_range_reclaim_conservative",
+      "child": "sideways_wide_range_reclaim_conservative_r6_child5",
+      "return_pct": -0.312,
+      "drawdown_pct": -0.312,
+      "trades": 7,
+      "promoted": true,
+      "guard": "combined_delta_0.00pct"
+    },
+    {
+      "round": 6,
+      "family": "sideways_wide_range_reclaim_wild",
+      "child": "sideways_wide_range_reclaim_wild_r6_wild_child6",
+      "return_pct": -0.617,
+      "drawdown_pct": -0.807,
+      "trades": 16,
+      "promoted": true,
+      "guard": "combined_delta_0.00pct"
     }
   ],
   "top_failure_reasons": [
     {
       "reason": "persistent_quick_cache_miss_parallel_quick_disaster_return",
-      "count": 38
+      "count": 43
     },
     {
       "reason": "quick_disaster_return|no_trade_recovery_attempts=1",
-      "count": 20
+      "count": 23
     },
     {
       "reason": "no_trades|no_trade_recovery_attempts=3",
-      "count": 17
+      "count": 22
+    },
+    {
+      "reason": "persistent_quick_cache_miss_parallel_under_benchmark_quick",
+      "count": 12
+    },
+    {
+      "reason": "under_benchmark_quick|no_trade_recovery_attempts=3",
+      "count": 12
+    },
+    {
+      "reason": "persistent_quick_cache_miss_parallel_profit_factor_too_low",
+      "count": 11
     },
     {
       "reason": "family_suppressed_until_round_5",
       "count": 8
     },
     {
-      "reason": "persistent_quick_cache_miss_parallel_profit_factor_too_low",
-      "count": 8
-    },
-    {
-      "reason": "persistent_quick_cache_miss_parallel_under_benchmark_quick",
-      "count": 7
-    },
-    {
-      "reason": "under_benchmark_quick|no_trade_recovery_attempts=3",
-      "count": 6
-    },
-    {
       "reason": "focused_run_sideways_discovery_keeps_current_regime_windows",
-      "count": 5
+      "count": 6
     }
   ],
   "website_cards": [
@@ -740,11 +740,11 @@
     },
     {
       "label": "Promotions",
-      "value": "9"
+      "value": "11"
     },
     {
       "label": "Viable Rate",
-      "value": "13.16%"
+      "value": "12.5%"
     }
   ],
   "files_to_send_chatgpt": [
@@ -757,5 +757,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-06 03:33:59 AM"
+  "updated_at": "2026-05-06 04:12:48 AM"
 }
