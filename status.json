@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 8 of infinite: round_hotpool_full_test.",
-    "Testing sideways_transition_breakout queued/1 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 8 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: mutation diversity and looser micro-pretest gates"
   ],
   "average_expected_apr": "1.94%",
   "cycle_progress": "Round 8 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_transition_breakout",
-  "current_child": "queued/1 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 210,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -277,13 +277,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-06T10:30:38.829933+00:00",
+  "generated_at": "2026-05-06T10:34:44.442179+00:00",
   "version": "14.8-discovered-sideways-reclaim",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-06T05:40:46.790842+00:00",
-  "runtime_minutes": 289.87,
-  "children_per_hour": 43.47,
+  "runtime_minutes": 293.96,
+  "children_per_hour": 42.86,
   "run_health": "watch",
   "warnings": [
     "No promotion in the latest event window."
@@ -757,5 +757,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-06 05:30:38 AM"
+  "updated_at": "2026-05-06 05:34:44 AM"
 }
