@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 3 of infinite: round_hotpool_quick_test.",
-    "Testing sideways_siderank_oracle_hybrid+sideways_oracle_score_reclaim+sideways_oracle_sequence_reclaim+sideways_wide_bucket_scout+sideways_exit_bakeoff_range+sideways_exit_bakeoff_trail queued/36 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 3 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: watch | Focus: mutation diversity and looser micro-pretest gates"
   ],
   "average_expected_apr": "1.94%",
   "cycle_progress": "Round 3 / infinite",
-  "phase": "round_hotpool_quick_test",
-  "current_family": "sideways_siderank_oracle_hybrid+sideways_oracle_score_reclaim+sideways_oracle_sequence_reclaim+sideways_wide_bucket_scout+sideways_exit_bakeoff_range+sideways_exit_bakeoff_trail",
-  "current_child": "queued/36 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 108,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -277,13 +277,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-06T15:32:49.217640+00:00",
+  "generated_at": "2026-05-06T15:37:00.523204+00:00",
   "version": "14.9-oracle-hybrid-diagnostics",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-06T12:41:21.994518+00:00",
-  "runtime_minutes": 171.45,
-  "children_per_hour": 37.79,
+  "runtime_minutes": 175.64,
+  "children_per_hour": 36.89,
   "run_health": "watch",
   "warnings": [
     "Very low viable-child rate; mutation space may be too harsh or parents are strong."
@@ -626,5 +626,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-06 10:32:49 AM"
+  "updated_at": "2026-05-06 10:37:00 AM"
 }
