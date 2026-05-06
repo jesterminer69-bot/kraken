@@ -1,13 +1,13 @@
 {
   "current_task": [
-    "startup_market_loaded",
-    "Loaded 11 symbols with 524,553 combined timeline points. Startup/evolution multiprocessing workers=6.",
+    "startup_user_selection_complete",
+    "Run selected. Regimes=sideways_oracle; mode=infinite; rounds=infinite.",
     "Version: 14.9-oracle-hybrid-diagnostics"
   ],
   "average_expected_apr": "",
   "cycle_progress": "startup",
-  "phase": "startup_market_loaded",
-  "current_family": "startup",
+  "phase": "startup_user_selection_complete",
+  "current_family": "sideways_oracle",
   "current_child": "",
   "children_tested": 0,
   "worker_processes": 6,
@@ -17,9 +17,9 @@
   "children_viable": 0,
   "children_pruned": 0,
   "promotions": 0,
-  "last_event": "Loaded 11 symbols with 524,553 combined timeline points. Startup/evolution multiprocessing workers=6.",
+  "last_event": "Run selected. Regimes=sideways_oracle; mode=infinite; rounds=infinite.",
   "last_promotion": "",
-  "generated_at": "2026-05-06T12:40:37.214777+00:00",
+  "generated_at": "2026-05-06T12:41:20.313054+00:00",
   "version": "14.9-oracle-hybrid-diagnostics",
   "mode": "startup",
   "run_health": "startup",
@@ -28,5 +28,5 @@
     "STATUS_NOW.txt",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-06 07:40:37 AM"
+  "updated_at": "2026-05-06 07:41:20 AM"
 }
