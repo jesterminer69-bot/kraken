@@ -1,13 +1,13 @@
 {
   "current_task": [
-    "startup_parent_recheck_complete",
-    "Parent evaluation cache ready for 22 families. User run selection is next.",
-    "Version: 14.8-discovered-sideways-reclaim"
+    "Round 0 of infinite: startup.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
+    "Health: healthy | Focus: mutation diversity and looser micro-pretest gates"
   ],
-  "average_expected_apr": "",
-  "cycle_progress": "startup",
-  "phase": "startup_parent_recheck_complete",
-  "current_family": "startup",
+  "average_expected_apr": "1.94%",
+  "cycle_progress": "Round 0 / infinite",
+  "phase": "startup",
+  "current_family": "",
   "current_child": "",
   "children_tested": 0,
   "worker_processes": 6,
@@ -17,16 +17,174 @@
   "children_viable": 0,
   "children_pruned": 0,
   "promotions": 0,
-  "last_event": "Parent evaluation cache ready for 22 families. User run selection is next.",
+  "last_event": "",
   "last_promotion": "",
-  "generated_at": "2026-05-06T05:40:49.214279+00:00",
+  "testing_detail": [],
+  "generated_at": "2026-05-06T05:44:56.708768+00:00",
   "version": "14.8-discovered-sideways-reclaim",
-  "mode": "startup",
-  "run_health": "startup",
-  "warnings": [],
+  "mode": "infinite",
+  "requested_rounds": "infinite",
+  "started_at": "2026-05-06T05:40:46.790842+00:00",
+  "runtime_minutes": 4.17,
+  "children_per_hour": 0.0,
+  "run_health": "healthy",
+  "warnings": [
+    "ok"
+  ],
+  "growth_metrics": {
+    "health": "healthy",
+    "warnings": [
+      "ok"
+    ],
+    "viable_rate_pct": 0.0,
+    "prune_rate_pct": 0.0,
+    "promotion_rate_pct": 0.0,
+    "full_tests_seen": 0,
+    "best_current_regime": "bear",
+    "weakest_current_regime": "bull",
+    "suggested_focus": "mutation diversity and looser micro-pretest gates"
+  },
+  "combined_summary": {
+    "kind": "combined",
+    "name": "combined_selector_v12_3",
+    "fitness": 25.223,
+    "return_pct": 9.713,
+    "estimated_apr_pct": 1.943,
+    "max_drawdown_pct": -1.075,
+    "trade_count": 3,
+    "win_rate_pct": 66.67,
+    "profit_factor": 92.21,
+    "avg_trade_pct": 11.1048,
+    "fee_paid": 1.8246,
+    "fee_drag_pct": 0.608,
+    "benchmark_name": "cash",
+    "benchmark_to_beat_pct": 0.0,
+    "benchmark_gap_pct": 9.713,
+    "flags": [
+      "ok"
+    ]
+  },
+  "champions": {
+    "bull": {
+      "kind": "bull",
+      "name": "bull_runner_r6_child2",
+      "fitness": -30.306,
+      "return_pct": 10.162,
+      "estimated_apr_pct": 2.032,
+      "max_drawdown_pct": -1.131,
+      "trade_count": 2,
+      "win_rate_pct": 50.0,
+      "profit_factor": 3655.273,
+      "avg_trade_pct": 16.044,
+      "fee_paid": 1.6583,
+      "fee_drag_pct": 0.553,
+      "benchmark_name": "buy_hold_XBTUSD",
+      "benchmark_to_beat_pct": 73.486,
+      "benchmark_gap_pct": -63.325,
+      "flags": [
+        "ok"
+      ]
+    },
+    "bear": {
+      "kind": "bear",
+      "name": "bear_defensive_dca_r6_child5",
+      "fitness": 48.863,
+      "return_pct": 0.442,
+      "estimated_apr_pct": 0.088,
+      "max_drawdown_pct": -0.029,
+      "trade_count": 2,
+      "win_rate_pct": 100.0,
+      "profit_factor": 6.858,
+      "avg_trade_pct": 3.4288,
+      "fee_paid": 0.3183,
+      "fee_drag_pct": 0.106,
+      "benchmark_name": "cash",
+      "benchmark_to_beat_pct": 0.0,
+      "benchmark_gap_pct": 0.442,
+      "flags": [
+        "ok"
+      ]
+    },
+    "sideways": {
+      "kind": "sideways",
+      "name": "siderank_sideways_grid_light_wild_025",
+      "fitness": 19.379,
+      "return_pct": 0.225,
+      "estimated_apr_pct": 0.045,
+      "max_drawdown_pct": -0.065,
+      "trade_count": 1,
+      "win_rate_pct": 100.0,
+      "profit_factor": 1.583,
+      "avg_trade_pct": 1.5829,
+      "fee_paid": 0.3477,
+      "fee_drag_pct": 0.116,
+      "benchmark_name": "cash",
+      "benchmark_to_beat_pct": 0.0,
+      "benchmark_gap_pct": 0.225,
+      "flags": [
+        "ok"
+      ]
+    },
+    "combined": {
+      "kind": "combined",
+      "name": "combined_selector_v12_3",
+      "fitness": 25.223,
+      "return_pct": 9.713,
+      "estimated_apr_pct": 1.943,
+      "max_drawdown_pct": -1.075,
+      "trade_count": 3,
+      "win_rate_pct": 66.67,
+      "profit_factor": 92.21,
+      "avg_trade_pct": 11.1048,
+      "fee_paid": 1.8246,
+      "fee_drag_pct": 0.608,
+      "benchmark_name": "cash",
+      "benchmark_to_beat_pct": 0.0,
+      "benchmark_gap_pct": 9.713,
+      "flags": [
+        "ok"
+      ]
+    }
+  },
+  "family_scoreboard": [],
+  "recent_promotions": [],
+  "recent_full_tests": [],
+  "top_failure_reasons": [],
+  "website_cards": [
+    {
+      "label": "Combined Return",
+      "value": "9.713%"
+    },
+    {
+      "label": "Expected APR",
+      "value": "1.94%"
+    },
+    {
+      "label": "Max DD",
+      "value": "-1.075%"
+    },
+    {
+      "label": "PF",
+      "value": "92.21"
+    },
+    {
+      "label": "Promotions",
+      "value": "0"
+    },
+    {
+      "label": "Viable Rate",
+      "value": "0.0%"
+    }
+  ],
   "files_to_send_chatgpt": [
     "STATUS_NOW.txt",
+    "RUN_DIAGNOSTIC_SUMMARY.csv",
+    "LIVE_ROUND_SUMMARY.csv",
+    "LIVE_EVOLUTION_EVENTS.csv",
+    "LIVE_EVOLUTION_EVENTS_CLEAN.csv",
+    "LIVE_EVOLUTION_EVENTS_CLEAN.txt",
+    "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-06 12:40:49 AM"
+  "updated_at": "2026-05-06 12:44:56 AM"
 }
