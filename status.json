@@ -1,14 +1,14 @@
 {
   "current_task": [
-    "Round 1 of infinite: round_hotpool_full_test.",
-    "Testing sideways_exit_bakeoff_trail+sideways_oracle_sequence_reclaim queued/2 workers/6; children are compared against family baselines and combined-selector impact.",
+    "Round 1 of infinite: round_complete.",
+    "Testing all families ; children are compared against family baselines and combined-selector impact.",
     "Health: healthy | Focus: mutation diversity and looser micro-pretest gates"
   ],
   "average_expected_apr": "1.94%",
   "cycle_progress": "Round 1 / infinite",
-  "phase": "round_hotpool_full_test",
-  "current_family": "sideways_exit_bakeoff_trail+sideways_oracle_sequence_reclaim",
-  "current_child": "queued/2 workers/6",
+  "phase": "round_complete",
+  "current_family": "",
+  "current_child": "",
   "children_tested": 36,
   "worker_processes": 6,
   "multiprocessing_enabled": true,
@@ -277,13 +277,13 @@
       "promoted": false
     }
   ],
-  "generated_at": "2026-05-06T13:48:17.795185+00:00",
+  "generated_at": "2026-05-06T13:52:26.796791+00:00",
   "version": "14.9-oracle-hybrid-diagnostics",
   "mode": "infinite",
   "requested_rounds": "infinite",
   "started_at": "2026-05-06T12:41:21.994518+00:00",
-  "runtime_minutes": 66.93,
-  "children_per_hour": 32.27,
+  "runtime_minutes": 71.08,
+  "children_per_hour": 30.39,
   "run_health": "healthy",
   "warnings": [
     "ok"
@@ -596,5 +596,5 @@
     "LIVE_CURRENT_CHAMPIONS.csv",
     "GITHUB_STATUS_PAYLOAD.json"
   ],
-  "updated_at": "2026-05-06 08:48:17 AM"
+  "updated_at": "2026-05-06 08:52:26 AM"
 }
